@@ -7,9 +7,9 @@ from Bio.PDB import *
 #extract xyz of a atom
 def ext_xyz(pdbline):
     if pdbline[0:6]=="HETATM" or pdbline[0:6]=="ATOM  ":
-        x = float('{:.3f}'.format(float(pdbline[31:38])))
-        y = float('{:.3f}'.format(float(pdbline[39:46])))
-        z = float('{:.3f}'.format(float(pdbline[47:54])))
+        x = float('{:.3f}'.format(float(pdbline[30:38])))
+        y = float('{:.3f}'.format(float(pdbline[38:46])))
+        z = float('{:.3f}'.format(float(pdbline[46:54])))
         return x, y, z
     else:
         return 'None'
@@ -17,9 +17,9 @@ def ext_xyz(pdbline):
 #calculate vector of a atom
 def vec_xyz(pdbline):
     if pdbline[0:6]=="HETATM" or pdbline[0:6]=="ATOM  ":
-        x = float('{:.3f}'.format(float(pdbline[31:38])))
-        y = float('{:.3f}'.format(float(pdbline[39:46])))
-        z = float('{:.3f}'.format(float(pdbline[47:54])))
+        x = float('{:.3f}'.format(float(pdbline[30:38])))
+        y = float('{:.3f}'.format(float(pdbline[38:46])))
+        z = float('{:.3f}'.format(float(pdbline[46:54])))
         xyz = [x, y, z]
         vec_xyz = np.array(xyz)
         return vec_xyz
@@ -53,9 +53,9 @@ def lat_gen(inputname, column, outputname):
             if line[0:6] == column:
                 p_num += 1
                 num_pdb = '{:5}'.format(p_num)
-                lxi = math.modf(float(line[31:38]))[1]
-                lyi = math.modf(float(line[39:46]))[1]
-                lzi = math.modf(float(line[47:54]))[1]
+                lxi = math.modf(float(line[30:38]))[1]
+                lyi = math.modf(float(line[38:46]))[1]
+                lzi = math.modf(float(line[46:54]))[1]
                 llx = appr(lxi)
                 lly = appr(lyi)
                 llz = appr(lzi)
@@ -64,9 +64,9 @@ def lat_gen(inputname, column, outputname):
     t_file('lat_ex.txt')
     with open('lat.pdb','r')as poc:
         for line in poc:
-            lat_x = float(line[31:38])
-            lat_y = float(line[39:46])
-            lat_z = float(line[47:54])
+            lat_x = float(line[30:38])
+            lat_y = float(line[38:46])
+            lat_z = float(line[46:54])
             for j in range(3):
                 x = round(float(j-1.0),1)
                 for k in range(3):

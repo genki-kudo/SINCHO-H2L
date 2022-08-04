@@ -14,7 +14,7 @@ def poc_mw_calc(estimate_poc_vol,res1,):
     for i in estimate_poc_vol:
         path = os.path.splitext(i)[0]
         name = (path.split('/')[-1])
-        name = name[4:]
+        #name = name[4:]
         vol = estimate_poc_vol[i]
         mw = res1[0]*vol+res1[1]
         estimate_poc_mw[name] = mw
