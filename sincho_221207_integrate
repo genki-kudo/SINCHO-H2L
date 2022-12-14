@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+from script.exec import *
+from script.basic.basic_func import logo
+
+print("\n")
+print('-------------------')
+print('SINCHO')
+print(' Ver. 1.1.1 ')
+print('-------------------\n')
+
+if __name__ == '__main__':
+    logo()
+    sincho_exec()
+print('-------------------')
+print('   SINCHO finished    ')
+print('-------------------')
+
