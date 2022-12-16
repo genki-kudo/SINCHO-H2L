@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    86:
+HEADER 0  - Pocket Score                      : 2.3393
+HEADER 1  - Drug Score                        : 0.0044
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7015
+HEADER 4  - Mean alpha-sphere SA              : 0.6701
+HEADER 5  - Mean B-factor                     : 0.7110
+HEADER 6  - Hydrophobicity Score              : -13.2500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.2500
+HEADER 9  - Real volume (approximation)       : 273.0706
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 8.0000
+HEADER 12 - Number of apolar alpha sphere     :     9
+HEADER 13 - Proportion of apolar alpha sphere : 0.5000
+ATOM   2702    O GLY A 335      -9.811 -17.886  47.518  1.00 61.03           O 0
+ATOM   2709   CD LYS A 336     -11.885 -20.935  47.820  1.00 84.67           C 0
+ATOM   2710   CE LYS A 336     -13.391 -20.740  47.648  1.00 86.98           C 0
+ATOM   2711   NZ LYS A 336     -13.747 -19.440  47.006  1.00 83.49           N 1
+ATOM   2714    C ASP A 337      -4.805 -19.730  49.423  1.00 68.22           C 0
+ATOM   2715    O ASP A 337      -4.298 -18.597  49.432  1.00 76.08           O 0
+ATOM   2724   CB ASN A 338      -6.173 -20.139  52.720  1.00 79.32           C 0
+ATOM   2721   CA ASN A 338      -4.920 -19.835  51.855  1.00 70.79           C 0
+ATOM   2720    N ASN A 338      -5.074 -20.413  50.525  1.00 68.34           N 0
+ATOM   2712    N ASP A 337      -6.475 -20.156  47.678  1.00 64.11           N 0
+ATOM   2705    C LYS A 336      -7.503 -20.982  47.862  1.00 60.48           C 0
+ATOM   2726  ND2 ASN A 338      -7.104 -22.012  53.992  1.00 73.84           N 0
+ATOM   2725   CG ASN A 338      -6.439 -21.634  52.894  1.00 77.80           C 0
+ATOM   2706    O LYS A 336      -7.398 -22.051  48.451  1.00 54.88           O 0
+ATOM   2704   CA LYS A 336      -8.858 -20.498  47.346  1.00 62.98           C 0
+ATOM   2727  OD1 ASN A 338      -6.046 -22.434  52.050  1.00 81.75           O 0
+TER
+END

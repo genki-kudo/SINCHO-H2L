@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   195:
+HEADER 0  - Pocket Score                      : -2.2783
+HEADER 1  - Drug Score                        : 0.0076
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7758
+HEADER 4  - Mean alpha-sphere SA              : 0.5983
+HEADER 5  - Mean B-factor                     : 0.2211
+HEADER 6  - Hydrophobicity Score              : 17.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.4286
+HEADER 9  - Real volume (approximation)       : 331.6367
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.0556
+ATOM   1656  OE1 GLU A 204      28.640  12.550  60.861  1.00 44.30           O 0
+ATOM   1664   CD PRO A 205      26.752   9.677  60.784  1.00 28.72           C 0
+ATOM   2134  OE2 GLU A 263      30.158   5.435  61.798  1.00 47.95           O 1
+ATOM   1663   CG PRO A 205      26.846   8.302  61.382  1.00 27.55           C 0
+ATOM   1648    O GLY A 203      28.776   9.682  56.663  1.00 27.42           O 0
+ATOM   1657  OE2 GLU A 204      29.883  13.458  59.259  1.00 36.97           O 1
+ATOM   2135    N ALA A 264      28.861   5.332  56.880  1.00 33.66           N 0
+ATOM   1650   CA GLU A 204      27.136  11.231  58.265  1.00 30.85           C 0
+ATOM   1658    N PRO A 205      26.006   9.447  59.522  1.00 29.19           N 0
+ATOM   2139   CB ALA A 264      30.341   6.553  55.329  1.00 29.35           C 0
+ATOM   2127   CA GLU A 263      27.810   4.329  58.812  1.00 36.49           C 0
+ATOM    871   OH TYR A 111      26.868  11.384  66.048  1.00 51.60           O 0
+ATOM   2133  OE1 GLU A 263      28.496   4.807  63.110  1.00 51.60           O 0
+ATOM    895  CE1 PHE A 114      26.303   7.635  66.230  1.00 74.98           C 0
+ATOM    897   CZ PHE A 114      26.535   6.354  65.740  1.00 75.05           C 0
+ATOM   2138    O ALA A 264      30.802   3.616  55.970  1.00 34.98           O 0
+ATOM   2130   CB GLU A 263      29.041   3.882  59.622  1.00 40.71           C 0
+ATOM   1647    C GLY A 203      28.397  10.775  56.253  1.00 30.75           C 0
+ATOM   1646   CA GLY A 203      28.861  11.312  54.917  1.00 31.83           C 0
+TER
+END

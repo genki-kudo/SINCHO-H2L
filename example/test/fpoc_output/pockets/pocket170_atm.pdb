@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   171:
+HEADER 0  - Pocket Score                      : -1.5927
+HEADER 1  - Drug Score                        : 0.0092
+HEADER 2  - Number of V. Vertices             :    13
+HEADER 3  - Mean alpha-sphere radius          : 4.4216
+HEADER 4  - Mean alpha-sphere SA              : 0.7784
+HEADER 5  - Mean B-factor                     : 0.7109
+HEADER 6  - Hydrophobicity Score              : 20.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.6000
+HEADER 9  - Real volume (approximation)       : 488.3716
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 7.0000
+HEADER 12 - Number of apolar alpha sphere     :     8
+HEADER 13 - Proportion of apolar alpha sphere : 0.6154
+ATOM   2669  CD1 LEU A 331      -6.795 -24.005  45.799  1.00 83.03           C 0
+ATOM   2661   CE LYS A 330      -6.014 -26.212  37.334  1.00 78.22           C 0
+ATOM   2659   CG LYS A 330      -6.951 -23.970  38.183  1.00 76.21           C 0
+ATOM   2667   CB LEU A 331      -5.315 -23.762  43.746  1.00 76.91           C 0
+ATOM   2664   CA LEU A 331      -6.143 -22.790  42.890  1.00 69.23           C 0
+ATOM   2663    N LEU A 331      -5.706 -22.937  41.499  1.00 68.34           N 0
+ATOM   2698   CB ALA A 334      -9.882 -20.787  42.368  1.00 67.15           C 0
+ATOM   2658   CB LYS A 330      -5.526 -23.577  38.524  1.00 71.45           C 0
+ATOM   2625    O GLU A 327      -1.823 -25.586  41.097  1.00 63.97           O 0
+ATOM   2707   CB LYS A 336      -9.691 -21.648  46.755  1.00 73.74           C 0
+ATOM   2708   CG LYS A 336     -11.158 -21.282  46.508  1.00 78.34           C 0
+ATOM   2657    O LYS A 330      -7.046 -21.351  40.606  1.00 63.69           O 0
+ATOM   2656    C LYS A 330      -6.099 -22.133  40.513  1.00 67.86           C 0
+TER
+END

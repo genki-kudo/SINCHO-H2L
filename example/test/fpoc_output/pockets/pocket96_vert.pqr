@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    97:
+HEADER 0  - Pocket Score                      : 1.4573
+HEADER 1  - Drug Score                        : 0.0145
+HEADER 2  - Number of V. Vertices             :    13
+HEADER 3  - Mean alpha-sphere radius          : 3.1194
+HEADER 4  - Mean alpha-sphere SA              : 0.3877
+HEADER 5  - Mean B-factor                     : 0.1786
+HEADER 6  - Hydrophobicity Score              : 29.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 58.4158
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.3077
+ATOM   7748 APOL STP    97      25.932  13.623  61.633    0.00     3.01
+ATOM   7748 APOL STP    97      25.849  13.701  61.572    0.00     3.01
+ATOM   7748  POL STP    97      25.926  13.728  61.698    0.00     3.08
+ATOM  10813  POL STP    97      25.932  13.743  61.703    0.00     3.08
+ATOM  10814  POL STP    97      25.934  13.735  61.747    0.00     3.08
+ATOM   5430 APOL STP    97      25.098  13.020  64.252    0.00     3.01
+ATOM   7743 APOL STP    97      25.097  12.974  64.145    0.00     3.05
+ATOM   5396  POL STP    97      27.052  13.743  63.614    0.00     3.39
+ATOM   7748  POL STP    97      26.309  13.201  63.238    0.00     3.39
+ATOM   7752  POL STP    97      26.502  11.840  62.998    0.00     3.11
+ATOM  10814  POL STP    97      26.062  13.698  62.393    0.00     3.21
+ATOM   7752  POL STP    97      26.458  11.758  63.026    0.00     3.07
+ATOM  10814  POL STP    97      25.810  13.768  62.360    0.00     3.07
+TER
+END

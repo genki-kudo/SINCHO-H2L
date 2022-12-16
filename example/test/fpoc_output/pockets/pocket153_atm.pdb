@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   154:
+HEADER 0  - Pocket Score                      : -0.8788
+HEADER 1  - Drug Score                        : 0.1134
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.1733
+HEADER 4  - Mean alpha-sphere SA              : 0.3547
+HEADER 5  - Mean B-factor                     : 0.2504
+HEADER 6  - Hydrophobicity Score              : 55.8750
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Volume Score                      : 3.3750
+HEADER 9  - Real volume (approximation)       : 66.5322
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 16.0000
+HEADER 12 - Number of apolar alpha sphere     :    17
+HEADER 13 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1807    O LEU A 222      -2.188   2.665  66.556  1.00 42.64           O 0
+ATOM   1813   CA ALA A 223      -1.363   2.712  63.959  1.00 35.70           C 0
+ATOM   1850  CE2 PHE A 227      -0.567   7.962  63.960  1.00 40.45           C 0
+ATOM    612  CD2 LEU A  81       1.598   7.486  67.644  1.00 32.62           C 0
+ATOM   1834   CB PHE A 226      -2.707   6.516  67.516  1.00 56.35           C 0
+ATOM   1988  CD1 ILE A 245       3.117   4.224  64.660  1.00 30.23           C 0
+ATOM   1809   CG LEU A 222       0.954   1.884  68.063  1.00 53.48           C 0
+ATOM   1837  CD2 PHE A 226      -1.933   5.412  69.627  1.00 64.84           C 0
+ATOM   1810  CD1 LEU A 222       0.195   2.522  69.230  1.00 53.48           C 0
+ATOM   1848  CD2 PHE A 227      -1.673   7.294  63.449  1.00 43.54           C 0
+ATOM   2014   CB MET A 249       4.637   5.507  70.939  1.00 35.87           C 0
+ATOM   2017   CE MET A 249       1.652   6.678  71.692  1.00 40.88           C 0
+ATOM   1987  CG2 ILE A 245       4.684   4.939  67.138  1.00 28.71           C 0
+ATOM   1811  CD2 LEU A 222       2.423   1.651  68.435  1.00 51.59           C 0
+ATOM   1816   CB ALA A 223      -0.615   2.480  62.664  1.00 35.88           C 0
+ATOM   1971  CG2 THR A 243       1.904   6.925  61.409  1.00 27.64           C 0
+TER
+END

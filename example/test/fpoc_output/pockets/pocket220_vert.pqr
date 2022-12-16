@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   221:
+HEADER 0  - Pocket Score                      : -3.0869
+HEADER 1  - Drug Score                        : 0.0113
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1397
+HEADER 4  - Mean alpha-sphere SA              : 0.6443
+HEADER 5  - Mean B-factor                     : 0.6935
+HEADER 6  - Hydrophobicity Score              : 24.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 511.2713
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 11.0000
+HEADER 12 - Number of apolar alpha sphere     :    12
+HEADER 13 - Proportion of apolar alpha sphere : 0.8000
+ATOM   2915 APOL STP   221      -4.317 -23.411  32.630    0.00     5.41
+ATOM   2962 APOL STP   221      -6.008 -21.529  34.801    0.00     4.28
+ATOM   3261 APOL STP   221      -6.305 -20.936  35.360    0.00     4.19
+ATOM   2962 APOL STP   221      -5.255 -22.146  34.678    0.00     4.11
+ATOM   3260 APOL STP   221      -5.381 -21.309  35.770    0.00     3.57
+ATOM   3261 APOL STP   221      -6.875 -20.392  35.362    0.00     4.56
+ATOM   3872 APOL STP   221      -6.170 -20.179  36.082    0.00     3.85
+ATOM   3873 APOL STP   221      -4.996 -20.068  37.081    0.00     3.06
+ATOM   3095 APOL STP   221      -3.580 -23.897  34.585    0.00     4.34
+ATOM   7211  POL STP   221      -2.535 -24.516  35.110    0.00     4.46
+ATOM   3095 APOL STP   221      -3.587 -23.865  34.754    0.00     4.25
+ATOM   7214 APOL STP   221      -2.646 -24.379  35.506    0.00     4.25
+ATOM   7216  POL STP   221      -2.572 -23.724  36.643    0.00     3.50
+ATOM   7216  POL STP   221      -2.468 -23.573  36.796    0.00     3.36
+ATOM   3119 APOL STP   221      -0.105 -21.922  32.198    0.00     4.90
+TER
+END

@@ -1,0 +1,24 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   111:
+HEADER 0  - Pocket Score                      : 0.7055
+HEADER 1  - Drug Score                        : 0.0041
+HEADER 2  - Number of V. Vertices             :     2
+HEADER 3  - Mean alpha-sphere radius          : 4.5184
+HEADER 4  - Mean alpha-sphere SA              : 0.8467
+HEADER 5  - Mean B-factor                     : 0.5865
+HEADER 6  - Hydrophobicity Score              : -8.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.0000
+HEADER 9  - Real volume (approximation)       : 153.6089
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM   3179  POL STP   111      -4.679  -9.376  35.627    0.00     4.97
+ATOM   3619  POL STP   111      -3.756 -10.011  35.724    0.00     4.07
+TER
+END

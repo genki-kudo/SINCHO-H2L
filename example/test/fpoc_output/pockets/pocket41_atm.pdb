@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    42:
+HEADER 0  - Pocket Score                      : 9.6755
+HEADER 1  - Drug Score                        : 0.0103
+HEADER 2  - Number of V. Vertices             :    38
+HEADER 3  - Mean alpha-sphere radius          : 4.1334
+HEADER 4  - Mean alpha-sphere SA              : 0.5622
+HEADER 5  - Mean B-factor                     : 0.1590
+HEADER 6  - Hydrophobicity Score              : 10.2500
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Volume Score                      : 3.9167
+HEADER 9  - Real volume (approximation)       : 736.5009
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 12.0000
+HEADER 12 - Number of apolar alpha sphere     :    13
+HEADER 13 - Proportion of apolar alpha sphere : 0.3421
+ATOM   1947  CE1 HIS A 240      -3.175   6.570  52.700  1.00 37.32           C 0
+ATOM   1888   OG SER A 233      -9.968   8.120  55.067  1.00 55.92           O 0
+ATOM   1887   CB SER A 233      -9.311   7.095  54.355  1.00 47.65           C 0
+ATOM   1868   OG SER A 230      -4.822   8.868  58.746  1.00 39.14           O 0
+ATOM   1864   CA SER A 230      -6.664   7.395  58.159  1.00 37.50           C 0
+ATOM   2503  NH2 ARG A 309      -2.394   9.202  50.266  0.58 55.44           N 0
+ATOM   1867   CB SER A 230      -5.197   7.508  58.553  1.00 37.20           C 0
+ATOM   1866    O SER A 230      -6.864   5.568  56.600  1.00 34.92           O 0
+ATOM   2492   SG CYS A 308      -5.698   6.301  49.971  1.00 37.84           S 0
+ATOM   1946  ND1 HIS A 240      -2.117   7.147  53.250  1.00 36.28           N 0
+ATOM   1965   CE MET A 242       0.589  12.773  54.480  1.00 29.54           C 0
+ATOM    651   OH TYR A  85      -1.685  15.824  57.344  1.00 27.76           O 0
+ATOM    649  CE2 TYR A  85      -0.375  16.234  55.375  1.00 25.63           C 0
+ATOM   1964   SD MET A 242       0.953  11.300  53.539  1.00 30.20           S 0
+ATOM   1913   CB PHE A 237      -3.381   4.698  56.100  1.00 31.59           C 0
+ATOM   1915  CD1 PHE A 237      -2.094   5.549  58.086  1.00 35.27           C 0
+ATOM   1962   CB MET A 242       2.393  10.269  55.713  1.00 27.22           C 0
+ATOM   1972  OG1 THR A 243       1.375   7.107  59.076  1.00 31.42           O 0
+ATOM   1912    O PHE A 237      -0.487   5.054  55.309  1.00 28.37           O 0
+ATOM    629  CG2 THR A  83       0.696  12.733  58.533  1.00 25.39           C 0
+ATOM   1943   CB HIS A 240       0.380   7.323  52.869  1.00 29.57           C 0
+ATOM   1893   CB CYS A 234      -6.445   3.997  52.959  1.00 36.17           C 0
+ATOM   1863    N SER A 230      -7.509   7.865  59.257  1.00 40.45           N 0
+ATOM   1861    C GLY A 229      -8.841   7.900  59.198  1.00 40.09           C 0
+ATOM   1862    O GLY A 229      -9.495   7.512  58.220  1.00 46.04           O 0
+TER
+END

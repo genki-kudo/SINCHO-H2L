@@ -1,0 +1,33 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   236:
+HEADER 0  - Pocket Score                      : -3.7517
+HEADER 1  - Drug Score                        : 0.0076
+HEADER 2  - Number of V. Vertices             :     9
+HEADER 3  - Mean alpha-sphere radius          : 3.9921
+HEADER 4  - Mean alpha-sphere SA              : 0.6867
+HEADER 5  - Mean B-factor                     : 0.1946
+HEADER 6  - Hydrophobicity Score              : 19.4000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Volume Score                      : 3.4000
+HEADER 9  - Real volume (approximation)       : 253.5030
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.1111
+ATOM     81   CG MET A  15      21.431 -11.144  63.341  1.00 30.70           C 0
+ATOM     42    O PRO A  10      18.542 -12.435  67.452  1.00 45.38           O 0
+ATOM     43   CB PRO A  10      19.300 -12.619  70.491  1.00 46.89           C 0
+ATOM     71    O ILE A  14      21.607  -6.895  64.878  1.00 25.89           O 0
+ATOM     61   CB ARG A  13      18.062  -8.663  68.096  1.00 35.97           C 0
+ATOM     60    O ARG A  13      18.606  -9.440  64.953  1.00 26.41           O 0
+ATOM     59    C ARG A  13      18.217  -8.461  65.608  1.00 29.85           C 0
+ATOM     63   CD ARG A  13      18.449  -7.938  70.389  1.00 44.43           C 0
+ATOM     64   NE ARG A  13      18.313  -6.926  71.431  1.00 48.07           N 0
+ATOM     65   CZ ARG A  13      18.903  -5.723  71.460  1.00 51.68           C 0
+ATOM     67  NH2 ARG A  13      19.649  -5.269  70.468  1.00 49.75           N 0
+ATOM   2093  OD2 ASP A 258      18.240  -5.216  67.512  1.00 26.73           O 1
+TER
+END

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   142:
+HEADER 0  - Pocket Score                      : -0.6221
+HEADER 1  - Drug Score                        : 0.0105
+HEADER 2  - Number of V. Vertices             :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.1256
+HEADER 4  - Mean alpha-sphere SA              : 0.5139
+HEADER 5  - Mean B-factor                     : 0.1505
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 3.0000
+HEADER 9  - Real volume (approximation)       : 320.7799
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.1053
+ATOM   4895  POL STP   142      10.757  10.213  42.716    0.00     3.21
+ATOM   5056  POL STP   142       9.313  10.576  43.159    0.00     3.99
+ATOM  11498  POL STP   142       9.485  12.334  42.595    0.00     4.82
+ATOM  11498  POL STP   142       8.566  12.309  42.950    0.00     5.28
+ATOM  11498  POL STP   142       8.401  12.325  42.951    0.00     5.35
+ATOM  11529  POL STP   142      10.940  12.785  47.416    0.00     3.66
+ATOM  12983 APOL STP   142      11.058  12.907  47.457    0.00     3.58
+ATOM  11529  POL STP   142      10.824  12.889  47.290    0.00     3.73
+ATOM  12972 APOL STP   142      10.859  12.922  47.303    0.00     3.71
+ATOM  11530  POL STP   142      10.342  13.167  45.895    0.00     4.04
+ATOM  14609  POL STP   142      10.228  13.189  45.744    0.00     4.10
+ATOM  14609  POL STP   142      10.330  13.195  45.825    0.00     4.06
+ATOM  14609  POL STP   142      11.700  14.053  47.069    0.00     3.22
+ATOM  11530  POL STP   142      11.293  13.090  43.899    0.00     3.76
+ATOM  14609  POL STP   142      10.729  13.258  44.638    0.00     3.93
+ATOM  14609  POL STP   142       9.639  13.170  44.897    0.00     4.46
+ATOM  11498  POL STP   142       8.832  13.228  44.854    0.00     4.78
+ATOM  14613  POL STP   142       9.047  14.145  44.986    0.00     4.09
+ATOM  14609  POL STP   142       9.253  13.250  44.983    0.00     4.60
+TER
+END

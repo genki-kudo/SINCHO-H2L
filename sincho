@@ -10,7 +10,7 @@ print(' Ver. 1.1.1 ')
 print('-------------------\n')
 
 if __name__ == '__main__':
-    logo()
+    #logo()
     sincho_exec()
 print('-------------------')
 print('   SINCHO finished    ')

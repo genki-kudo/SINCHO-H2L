@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    87:
+HEADER 0  - Pocket Score                      : 2.0617
+HEADER 1  - Drug Score                        : 0.2590
+HEADER 2  - Number of V. Vertices             :    14
+HEADER 3  - Mean alpha-sphere radius          : 3.1696
+HEADER 4  - Mean alpha-sphere SA              : 0.4718
+HEADER 5  - Mean B-factor                     : 0.1265
+HEADER 6  - Hydrophobicity Score              : 75.8571
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 5.0000
+HEADER 9  - Real volume (approximation)       : 32.1968
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.2857
+ATOM   5456  POL STP    87       9.091  20.141  60.634    0.00     3.26
+ATOM  10501  POL STP    87       8.963  20.392  60.471    0.00     3.28
+ATOM  10503  POL STP    87       9.355  20.293  60.629    0.00     3.29
+ATOM  10501  POL STP    87       8.444  20.869  60.289    0.00     3.25
+ATOM  10501  POL STP    87       8.710  20.471  60.083    0.00     3.10
+ATOM  10501 APOL STP    87       8.432  20.836  60.200    0.00     3.20
+ATOM  10501 APOL STP    87       8.511  21.316  60.352    0.00     3.14
+ATOM  10503  POL STP    87       9.594  20.678  60.760    0.00     3.15
+ATOM  10501 APOL STP    87       8.519  21.443  60.241    0.00     3.03
+ATOM   7786  POL STP    87       9.650  20.377  61.013    0.00     3.06
+ATOM  10503  POL STP    87       9.581  20.400  60.733    0.00     3.25
+ATOM  10503 APOL STP    87       9.820  20.729  60.685    0.00     3.01
+ATOM  10503  POL STP    87       9.743  20.310  60.665    0.00     3.20
+ATOM  10503  POL STP    87       9.765  20.201  60.572    0.00     3.17
+TER
+END

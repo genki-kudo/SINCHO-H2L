@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    80:
+HEADER 0  - Pocket Score                      : 2.7714
+HEADER 1  - Drug Score                        : 0.0068
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.3245
+HEADER 4  - Mean alpha-sphere SA              : 0.7403
+HEADER 5  - Mean B-factor                     : 0.6614
+HEADER 6  - Hydrophobicity Score              : 2.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.0000
+HEADER 9  - Real volume (approximation)       : 380.0085
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 17.0000
+HEADER 12 - Number of apolar alpha sphere     :    18
+HEADER 13 - Proportion of apolar alpha sphere : 0.8571
+ATOM    893  CD1 PHE A 114      25.394   7.833  67.280  1.00 77.71           C 0
+ATOM    895  CE1 PHE A 114      26.303   7.635  66.230  1.00 74.98           C 0
+ATOM    887    N PHE A 114      25.006   8.259  70.710  1.00 60.17           N 0
+ATOM    896  CE2 PHE A 114      25.856   5.263  66.301  1.00 77.07           C 0
+ATOM    897   CZ PHE A 114      26.535   6.354  65.740  1.00 75.05           C 0
+ATOM    892   CG PHE A 114      24.700   6.742  67.874  1.00 76.26           C 0
+ATOM    879   CA GLU A 113      26.735   9.445  72.083  1.00 66.04           C 0
+ATOM    882   CB GLU A 113      27.003   8.417  73.213  1.00 70.46           C 0
+ATOM    875    O SER A 112      29.050  11.028  71.718  1.00 67.05           O 0
+ATOM    894  CD2 PHE A 114      24.946   5.453  67.346  1.00 73.31           C 0
+ATOM    869  CE2 TYR A 111      26.015  11.587  68.272  1.00 49.62           C 0
+ATOM    871   OH TYR A 111      26.868  11.384  66.048  1.00 51.60           O 0
+ATOM    883   CG GLU A 113      25.810   7.860  74.007  1.00 75.30           C 0
+ATOM    905  OE1 GLU A 115      21.690   4.490  72.977  1.00 72.36           O 0
+ATOM    891   CB PHE A 114      23.673   6.918  69.020  1.00 67.02           C 0
+TER
+END
