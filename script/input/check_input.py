@@ -6,7 +6,7 @@ import logging
 
 def setting():
 
-    input_list=[0 for i in range(10)]
+    input_list=[0 for i in range(11)]
 
     parser = argparse.ArgumentParser(prog='sincho')
     #input file setting
@@ -22,6 +22,7 @@ def setting():
     parser.add_argument('-log', '--logfilename', nargs=1, default=['./sincho.log'], help='specify logfile name (default: sincho.log)')
     parser.add_argument('-w', '--weight', nargs=1, default=['0.5'], help='specify 0.0 to 1.0. default: 0.5 (no weighted in the extend score)')
     parser.add_argument('-n', '--number_es', nargs=1, default=['3'], help='specify number of pockets. default: 3')
+    parser.add_argument('-mwsd','--mwerror',nargs=1, default=['50'], help='correct term of mw-estimation. default: +50')
 
     args = parser.parse_args()
 
@@ -35,6 +36,7 @@ def setting():
     input_list[7] = str(args.logfilename[0])#log file name
     input_list[8] = str(args.weight[0])#weight in the extend score
     input_list[9] = str(args.number_es[0])# number of pocket selected at (B)
+    input_list[10] = str(args.mwerror[0])
 
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.INFO)

@@ -53,10 +53,11 @@ def sincho_exec():
 
     ##### (D) molecular weight estimation #####
     logger.info('(D) molecular weight is estimating ...')
+    logger.info('Correct Term of MW-Estimation ->'+str(input_list[10]))
     # summing up molecular weight and adding sd-term  #
     ##20221209_correct term madadayo!
     for poc_atom in selected_poc_atom:
-        mw_calc(input_list[3], poc_atom, input_list[0], input_list[1],logger)
+        mw_calc(input_list[3], poc_atom, input_list[0], input_list[1],input_list[10],logger)
 
     ##### (Z) output format #####
     logger.info('SINCHO FINISHED')
