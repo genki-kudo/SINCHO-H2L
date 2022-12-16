@@ -22,7 +22,7 @@ def es_calc(all_pqr,fpocket_output, ligand, protein, weight, clusterdir):
         result.append(es)
         results.append(result)
     es_res = sorted(results, key=lambda x: x[1])
-    print(es_res)
+    #print(es_res)
 
     return es_res
 
