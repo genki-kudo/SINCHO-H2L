@@ -2,7 +2,7 @@ from script.basic.basic_func import *
 
 def dist_calc(ligand, poc_and_atom, clusterdir):
     poc = clusterdir+poc_and_atom[0]
-    atom = poc_and_atom[1]
+    atom = poc_and_atom[1].split('_')[-1]
 
     for i in open(ligand,'r').readlines():
         if i[12:16].replace(' ','')==atom:

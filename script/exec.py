@@ -8,8 +8,10 @@ import glob
 
 def sincho_exec():
 
+
     input_list, logger = setting()
     checks(input_list, logger)
+    print('input_list',input_list)
 
     if input_list[6]=='True':
         print('haha')
@@ -33,9 +35,10 @@ def sincho_exec():
     logger.info('(C) start atom is selecting ...')
     # 1. theta and distance check #
     poc_atom_lst = []
+    pdb_num_lst = []
     for poc in sel_pocs:
         lst_tmp = []
-        atom_dist_sort = theta_distance_calc(input_list[3], input_list[0]+poc)
+        atom_dist_sort , pdb_num = theta_distance_calc(input_list[3], input_list[0]+poc)
         #print(atom_dist_sort)
         if len(atom_dist_sort) !=0:
             lst_tmp.append(poc)

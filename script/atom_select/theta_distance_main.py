@@ -5,11 +5,13 @@ from script.atom_select.min_theta_dist import *
 
 def theta_distance_calc(ligand, pqr):
     candidate_atom_and_hydro = {}
+    pdb_num = {}
     for i in open(ligand,'r').readlines():
         if i[0:6]=='HETATM' or i[0:6]=='ATOM  ':
             bondh_coor = coordinate_bonding_hydrogen(ligand, i[12:16].replace(' ',''))
             if len(bondh_coor)!=0:
-                candidate_atom_and_hydro[i[12:16].replace(' ','')] = bondh_coor
+                candidate_atom_and_hydro[i.split()[1] + '_' + i[12:16].replace(' ','')] = bondh_coor
+                pdb_num[i.split()[1]] = i.split()[2]
 
     atom_theta_dist = min_theta_dist(candidate_atom_and_hydro, ligand, pqr)
     atom_theta_under90 = []
@@ -19,7 +21,7 @@ def theta_distance_calc(ligand, pqr):
     atom_dist_sort = sorted(atom_theta_under90, key=lambda x: x[2])
     #print(pqr, atom_dist_sort)
 
-    return atom_dist_sort
+    return atom_dist_sort ,pdb_num
     
 
     
