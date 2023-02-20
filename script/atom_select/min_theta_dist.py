@@ -7,7 +7,7 @@ def min_theta_dist(candidate_atom_and_hydro, ligand, pqr):
     for a, h in candidate_atom_and_hydro.items():
         theta_min = 180
         for bh in h:
-            heavyatom_coor = coordinate_of_atom(ligand,a)
+            heavyatom_coor = coordinate_of_atom(ligand,a.split('_')[-1])
             theta_c = theta_calc(bh, heavyatom_coor, np.mean(clusatom_coor,axis=0))
             if theta_c <= theta_min:
                 theta_min = theta_c

@@ -7,7 +7,6 @@ from script.extend_score.pqr_and_involveatom import *
 from script.extend_score.term1_hydro_norm import *
 from script.extend_score.term2_maxdist import *
 from script.extend_score.term3_asa import *
-
 def di_calc(ligand, cal_res_lst, clusterdir):
 
     ####################################################################################################

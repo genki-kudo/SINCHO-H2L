@@ -3,6 +3,7 @@ import math
 import numpy as np
 import pandas as pd
 from Bio.PDB import *
+from IPython.core.debugger import Pdb
 
 def dict_pdb_noh(pdbfile):
     dict = {}
@@ -180,7 +181,8 @@ def coordinate_bonding_hydrogen(pdbfile, heavyatom):
     for i in cand:
         with open(pdbfile, 'r')as inp:
             for line3 in inp:
-                if (line3[0:6]=='ATOM  ' or line3[0:6]=='HETATM')and int(line3[6:11])==int(i) and line3[12:16].replace(' ','')=='H':
+                # if (line3[0:6]=='ATOM  ' or line3[0:6]=='HETATM') and int(line3[6:11])==int(i) and line3[12:16].replace(' ','')=='H':
+                if (line3[0:6]=='ATOM  ' or line3[0:6]=='HETATM') and int(line3[6:11])==int(i) and line3.split()[-1]=='H':
                     bondh_coor.append(np.array([float(line3[30:38]),float(line3[38:46]), float(line3[46:54])]))
     return bondh_coor
 
