@@ -7,4 +7,9 @@ SINCHO protocol is the method for **the prediction/suggestion of the desirable a
 * **Pocket to Concavity (P2C)**
 P2C is used for site identification. [P2C installation is refferred to the repository.](https://github.com/genki-kudo/Pocket-to-Concavity)
   
-
+##Input files
+* Ligand pdb file
+  *水素付加済
+  *原子名付
+  *ファイル名=残基名
+  *CONECT行付
