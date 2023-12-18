@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    79:
+HEADER 0  - Pocket Score                      : 2.8338
+HEADER 1  - Drug Score                        : 0.0043
+HEADER 2  - Number of V. Vertices             :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.7648
+HEADER 4  - Mean alpha-sphere SA              : 0.6999
+HEADER 5  - Mean B-factor                     : 0.5237
+HEADER 6  - Hydrophobicity Score              : -4.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.2000
+HEADER 9  - Real volume (approximation)       : 240.5383
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.0833
+ATOM    914  OE1 GLU A 116      24.915  14.708  74.108  1.00 50.83           O 0
+ATOM    872    N SER A 112      27.165  13.788  72.581  1.00 58.67           N 0
+ATOM    861   CA TYR A 111      26.079  15.417  71.104  1.00 55.11           C 0
+ATOM    877   OG SER A 112      28.013  14.011  75.206  1.00 56.07           O 0
+ATOM    862    C TYR A 111      27.258  14.481  71.446  1.00 55.30           C 0
+ATOM    860    N TYR A 111      26.494  16.619  70.362  1.00 55.18           N 0
+ATOM    854   CG ARG A 110      28.501  19.732  70.522  1.00 82.01           C 0
+ATOM    852    O ARG A 110      24.581  17.781  70.723  1.00 46.72           O 0
+ATOM    915  OE2 GLU A 116      23.509  16.161  74.968  1.00 52.06           O 1
+ATOM    853   CB ARG A 110      26.977  19.914  70.318  1.00 68.90           C 0
+ATOM    851    C ARG A 110      25.717  17.700  70.249  1.00 54.64           C 0
+ATOM    858  NH1 ARG A 110      31.505  18.185  69.950  1.00 94.66           N 1
+ATOM    863    O TYR A 111      28.204  14.371  70.675  1.00 57.70           O 0
+ATOM    873   CA SER A 112      28.224  12.871  73.041  1.00 62.93           C 0
+ATOM    952   NZ LYS A 120      22.148  19.065  71.651  1.00 48.48           N 1
+TER
+END

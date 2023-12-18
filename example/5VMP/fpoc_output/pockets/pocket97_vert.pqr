@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    98:
+HEADER 0  - Pocket Score                      : 1.3740
+HEADER 1  - Drug Score                        : 0.0049
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 3.5695
+HEADER 4  - Mean alpha-sphere SA              : 0.5707
+HEADER 5  - Mean B-factor                     : 0.5696
+HEADER 6  - Hydrophobicity Score              : 1.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.5000
+HEADER 9  - Real volume (approximation)       : 220.5053
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 5.0000
+HEADER 12 - Number of apolar alpha sphere     :     6
+HEADER 13 - Proportion of apolar alpha sphere : 0.3000
+ATOM   3123  POL STP    98       3.716 -21.162  32.679    0.00     4.21
+ATOM   3123  POL STP    98       2.996 -21.512  32.832    0.00     4.27
+ATOM   6583  POL STP    98       3.860 -20.549  32.799    0.00     3.76
+ATOM   3607 APOL STP    98       5.624 -20.123  33.857    0.00     3.32
+ATOM   3607 APOL STP    98       5.200 -20.093  33.132    0.00     3.88
+ATOM   3607 APOL STP    98       5.591 -19.747  33.899    0.00     3.25
+ATOM   3607  POL STP    98       5.156 -20.186  32.983    0.00     4.00
+ATOM   6584 APOL STP    98       5.168 -20.125  32.995    0.00     3.97
+ATOM   3607 APOL STP    98       5.403 -19.428  33.658    0.00     3.43
+ATOM   4731  POL STP    98       5.549 -18.630  33.810    0.00     3.28
+ATOM   6584 APOL STP    98       5.364 -19.224  33.322    0.00     3.54
+ATOM   4732  POL STP    98       5.916 -17.772  34.231    0.00     3.13
+ATOM   4732  POL STP    98       5.889 -17.557  34.381    0.00     3.08
+ATOM   4702  POL STP    98       6.485 -16.938  34.208    0.00     3.13
+ATOM   4731  POL STP    98       6.417 -16.975  34.164    0.00     3.16
+ATOM   4732  POL STP    98       6.347 -17.074  34.194    0.00     3.14
+ATOM   3607  POL STP    98       7.179 -18.673  30.589    0.00     4.12
+ATOM   4731  POL STP    98       6.519 -18.159  31.847    0.00     3.50
+ATOM   6584  POL STP    98       5.638 -19.096  32.757    0.00     3.50
+ATOM   3606  POL STP    98       6.939 -22.357  34.457    0.00     3.73
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   195:
+HEADER 0  - Pocket Score                      : -2.2783
+HEADER 1  - Drug Score                        : 0.0076
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7758
+HEADER 4  - Mean alpha-sphere SA              : 0.5983
+HEADER 5  - Mean B-factor                     : 0.2211
+HEADER 6  - Hydrophobicity Score              : 17.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.4286
+HEADER 9  - Real volume (approximation)       : 312.2653
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.0556
+ATOM   3946  POL STP   195      30.599   9.202  60.973    0.00     3.88
+ATOM   6713  POL STP   195      30.336   8.754  59.985    0.00     3.79
+ATOM   6715  POL STP   195      30.743   9.129  60.186    0.00     4.07
+ATOM   6713  POL STP   195      31.924   9.364  60.063    0.00     4.64
+ATOM   8102  POL STP   195      29.462   7.646  59.304    0.00     3.40
+ATOM   6715  POL STP   195      29.545   9.931  59.599    0.00     3.04
+ATOM   8101  POL STP   195      28.306   7.599  58.818    0.00     3.03
+ATOM   8101  POL STP   195      31.090   7.656  58.875    0.00     3.79
+ATOM   8102  POL STP   195      29.025   7.159  59.430    0.00     3.14
+ATOM   5358  POL STP   195      29.004  10.183  63.480    0.00     3.55
+ATOM   5358  POL STP   195      30.558   9.575  63.875    0.00     4.65
+ATOM   3329  POL STP   195      29.468   8.361  64.184    0.00     3.84
+ATOM   5358  POL STP   195      29.933   8.916  64.313    0.00     4.30
+ATOM   4100 APOL STP   195      29.194   8.206  64.132    0.00     3.62
+ATOM   4104  POL STP   195      30.174   8.074  64.940    0.00     4.10
+ATOM   8102  POL STP   195      32.197   5.987  58.617    0.00     3.82
+ATOM   8102  POL STP   195      32.031   5.774  58.666    0.00     3.67
+ATOM  12695  POL STP   195      31.880  11.542  56.914    0.00     3.63
+TER
+END

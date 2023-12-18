@@ -1,0 +1,33 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   132:
+HEADER 0  - Pocket Score                      : -0.1760
+HEADER 1  - Drug Score                        : 0.0086
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7402
+HEADER 4  - Mean alpha-sphere SA              : 0.5949
+HEADER 5  - Mean B-factor                     : 0.1623
+HEADER 6  - Hydrophobicity Score              : 20.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Volume Score                      : 3.2000
+HEADER 9  - Real volume (approximation)       : 160.2866
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.7333
+ATOM   1642  CE1 PHE A 202      28.011  12.802  50.218  1.00 33.90           C 0
+ATOM   2294  CE2 PHE A 283      27.594  16.193  51.447  1.00 38.12           C 0
+ATOM   1640  CD1 PHE A 202      28.764  11.879  50.962  1.00 32.66           C 0
+ATOM    762  NH1 ARG A  98      30.173  17.665  48.932  1.00 49.95           N 1
+ATOM   1639   CG PHE A 202      29.289  10.746  50.381  1.00 30.77           C 0
+ATOM    444   CB TYR A  59      31.891  11.131  46.635  1.00 34.65           C 0
+ATOM   1641  CD2 PHE A 202      29.067  10.557  49.020  1.00 33.59           C 0
+ATOM   1643  CE2 PHE A 202      28.319  11.479  48.259  1.00 33.82           C 0
+ATOM    443    O TYR A  59      31.950  13.746  45.621  1.00 41.08           O 0
+ATOM    458  OD1 ASP A  60      35.424  14.798  47.069  1.00 41.58           O 0
+ATOM   1644   CZ PHE A 202      27.790  12.603  48.860  1.00 32.28           C 0
+ATOM   1638   CB PHE A 202      30.129   9.758  51.173  1.00 34.12           C 0
+TER
+END

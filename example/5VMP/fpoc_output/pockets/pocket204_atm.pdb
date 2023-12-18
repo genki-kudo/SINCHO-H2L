@@ -1,0 +1,33 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   205:
+HEADER 0  - Pocket Score                      : -2.5630
+HEADER 1  - Drug Score                        : 0.0045
+HEADER 2  - Number of V. Vertices             :    10
+HEADER 3  - Mean alpha-sphere radius          : 4.2185
+HEADER 4  - Mean alpha-sphere SA              : 0.8090
+HEADER 5  - Mean B-factor                     : 0.5461
+HEADER 6  - Hydrophobicity Score              : 1.2500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 3.2500
+HEADER 9  - Real volume (approximation)       : 419.2676
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.2000
+ATOM   2823    N GLU A 352      21.218 -25.130  51.210  1.00 69.57           N 0
+ATOM   2807    O GLU A 349      20.100 -21.291  49.299  1.00 53.03           O 0
+ATOM   2827   CB GLU A 352      23.391 -24.901  50.004  1.00 68.94           C 0
+ATOM   2800    O PRO A 348      16.620 -23.115  49.630  1.00 55.14           O 0
+ATOM   2828   CG GLU A 352      23.351 -23.382  49.857  1.00 67.86           C 0
+ATOM   2829   CD GLU A 352      24.155 -22.879  48.667  1.00 63.71           C 0
+ATOM   2830  OE1 GLU A 352      23.770 -21.847  48.087  1.00 65.21           O 0
+ATOM   2818    N ALA A 351      18.921 -23.512  51.818  1.00 62.75           N 0
+ATOM   2822   CB ALA A 351      18.057 -25.803  51.330  1.00 64.66           C 0
+ATOM   2808   CB GLU A 349      18.075 -19.477  47.785  1.00 55.60           C 0
+ATOM   2809   CG GLU A 349      17.273 -19.241  46.493  1.00 53.38           C 0
+ATOM   2805   CA GLU A 349      17.844 -20.831  48.520  1.00 57.13           C 0
+TER
+END

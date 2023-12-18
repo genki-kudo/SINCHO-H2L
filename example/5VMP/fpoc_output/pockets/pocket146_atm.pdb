@@ -1,0 +1,32 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   147:
+HEADER 0  - Pocket Score                      : -0.7866
+HEADER 1  - Drug Score                        : 0.0036
+HEADER 2  - Number of V. Vertices             :     9
+HEADER 3  - Mean alpha-sphere radius          : 4.6897
+HEADER 4  - Mean alpha-sphere SA              : 0.7942
+HEADER 5  - Mean B-factor                     : 0.3174
+HEADER 6  - Hydrophobicity Score              : -27.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.8000
+HEADER 9  - Real volume (approximation)       : 409.9926
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.4444
+ATOM    759   CD ARG A  98      29.438  19.878  50.733  1.00 46.65           C 0
+ATOM    758   CG ARG A  98      28.108  20.467  51.220  1.00 48.39           C 0
+ATOM    792  ND2 ASN A 102      28.857  20.772  54.556  1.00 35.25           N 0
+ATOM    765   CA LYS A  99      25.573  24.319  51.749  1.00 47.72           C 0
+ATOM    768   CB LYS A  99      25.418  25.413  50.659  1.00 50.31           C 0
+ATOM    725    O ARG A  95      26.131  23.118  48.019  1.00 45.47           O 0
+ATOM    760   NE ARG A  98      29.596  19.943  49.267  1.00 48.80           N 0
+ATOM    764    N LYS A  99      25.581  22.973  51.131  1.00 43.93           N 0
+ATOM    727   CG ARG A  95      28.178  23.691  45.370  1.00 53.92           C 0
+ATOM    483  OD2 ASP A  63      31.289  21.148  44.559  1.00 46.30           O 1
+ATOM    763  NH2 ARG A  98      30.023  19.138  47.163  1.00 44.64           N 0
+TER
+END

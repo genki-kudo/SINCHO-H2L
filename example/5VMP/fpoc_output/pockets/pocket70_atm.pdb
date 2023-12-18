@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    71:
+HEADER 0  - Pocket Score                      : 3.2673
+HEADER 1  - Drug Score                        : 0.0049
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.3193
+HEADER 4  - Mean alpha-sphere SA              : 0.4827
+HEADER 5  - Mean B-factor                     : 0.1784
+HEADER 6  - Hydrophobicity Score              : -6.7778
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 3.7778
+HEADER 9  - Real volume (approximation)       : 123.6822
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 4.0000
+HEADER 12 - Number of apolar alpha sphere     :     5
+HEADER 13 - Proportion of apolar alpha sphere : 0.2381
+ATOM   1802  NH1 ARG A 221      -2.351  -7.706  65.915  1.00 33.52           N 1
+ATOM   1775  NH2 ARG A 218       2.621  -9.897  69.108  1.00 66.38           N 0
+ATOM   1770   CG ARG A 218       2.237  -6.972  67.676  1.00 41.78           C 0
+ATOM   1803  NH2 ARG A 221      -1.413  -7.405  67.982  1.00 34.01           N 0
+ATOM   1760   CB LYS A 217      -0.220  -7.978  62.982  1.00 37.04           C 0
+ATOM   1765    N ARG A 218       1.186  -5.900  64.984  1.00 36.33           N 0
+ATOM   1736    O GLU A 214       4.662 -11.388  64.550  1.00 34.37           O 0
+ATOM   1756    N LYS A 217       2.018  -6.966  62.603  1.00 35.64           N 0
+ATOM   1761   CG LYS A 217      -0.231  -8.951  61.810  1.00 36.71           C 0
+ATOM   1729    O PRO A 213       5.754 -10.014  61.235  1.00 35.84           O 0
+ATOM   1744    C HIS A 215       4.674  -7.532  64.306  1.00 31.38           C 0
+ATOM   1743   CA HIS A 215       5.241  -8.729  65.051  1.00 32.86           C 0
+ATOM   2764  CD2 HIS A 343       4.945 -13.148  59.587  1.00 39.51           C 0
+ATOM   2214  CE2 TYR A 273       3.597  -8.112  58.884  1.00 30.45           C 0
+ATOM   2767  NE2 HIS A 343       4.195 -12.532  58.610  1.00 37.50           N 0
+ATOM   1763   CE LYS A 217      -1.218  -9.481  59.594  1.00 41.00           C 0
+ATOM   1764   NZ LYS A 217      -0.885  -9.096  58.214  1.00 45.94           N 1
+ATOM   1752    N GLY A 216       4.799  -7.518  62.986  1.00 32.67           N 0
+ATOM   1745    O HIS A 215       4.133  -6.617  64.931  1.00 28.15           O 0
+TER
+END

@@ -1,0 +1,30 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   253:
+HEADER 0  - Pocket Score                      : -4.8018
+HEADER 1  - Drug Score                        : 0.0282
+HEADER 2  - Number of V. Vertices             :     7
+HEADER 3  - Mean alpha-sphere radius          : 3.0249
+HEADER 4  - Mean alpha-sphere SA              : 0.1740
+HEADER 5  - Mean B-factor                     : 0.1218
+HEADER 6  - Hydrophobicity Score              : 39.5714
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 3.4286
+HEADER 9  - Real volume (approximation)       : 47.9780
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 1.0000
+ATOM    348  CG2 VAL A  47      24.762  -7.915  54.746  1.00 28.17           C 0
+ATOM   1192  CH2 TRP A 148      25.069  -8.055  50.597  1.00 33.33           C 0
+ATOM    256  CD1 ILE A  34      21.621 -10.729  54.510  1.00 35.94           C 0
+ATOM    231  CD1 ILE A  31      20.736 -10.009  50.778  1.00 35.88           C 0
+ATOM   2177  CG1 ILE A 269      20.685  -6.700  52.799  1.00 33.49           C 0
+ATOM    219  CD2 TYR A  30      26.023 -11.812  52.521  1.00 34.55           C 0
+ATOM    224    N ILE A  31      22.517 -13.425  50.458  1.00 34.23           N 0
+ATOM    332   CB ALA A  45      20.489  -7.950  58.044  1.00 32.30           C 0
+ATOM    331    O ALA A  45      21.126  -4.955  57.065  1.00 35.67           O 0
+TER
+END

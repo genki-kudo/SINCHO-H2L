@@ -1,0 +1,25 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+c2-c1-n2   62.060     179.685   Calculated with empirical approach for c2-c1-n2
+c1-c2-n2   75.218     115.295   Calculated with empirical approach for c1-c2-n2
+c1-n2-c2   72.919     119.640   Calculated with empirical approach for c1-n2-c2
+c1-c2-os   73.204     115.910   Calculated with empirical approach for c1-c2-os
+c1-os-c2   66.539     114.080   Calculated with empirical approach for c1-os-c2
+
+DIHE
+
+IMPROPER
+c1-c2-c2-c2         1.1          180.0         2.0          Using the default value
+c2-o -c2-o          1.1          180.0         2.0          Using the default value
+c1-c2-c2-n2         1.1          180.0         2.0          Using the default value
+c1-c1-c2-c2         1.1          180.0         2.0          Using the default value
+c1-c1-c2-os         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

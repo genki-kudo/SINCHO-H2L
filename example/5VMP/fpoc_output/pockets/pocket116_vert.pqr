@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   117:
+HEADER 0  - Pocket Score                      : 0.4470
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8628
+HEADER 4  - Mean alpha-sphere SA              : 0.6562
+HEADER 5  - Mean B-factor                     : 0.4165
+HEADER 6  - Hydrophobicity Score              : -21.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.0000
+HEADER 9  - Real volume (approximation)       : 331.5818
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.4118
+ATOM   3509  POL STP   117      38.575   1.621  42.460    0.00     4.79
+ATOM   4418  POL STP   117      38.984   1.366  42.349    0.00     5.13
+ATOM   4413 APOL STP   117      38.614   1.610  42.482    0.00     4.81
+ATOM   6248  POL STP   117      37.265   2.188  42.638    0.00     3.88
+ATOM   4413 APOL STP   117      39.207   1.841  42.934    0.00     4.82
+ATOM   3509  POL STP   117      35.231   2.357  42.417    0.00     3.00
+ATOM   4403  POL STP   117      35.311   2.386  42.451    0.00     3.02
+ATOM   6248  POL STP   117      36.274   2.362  42.594    0.00     3.35
+ATOM   6248  POL STP   117      37.061   2.372  43.191    0.00     3.62
+ATOM   6248  POL STP   117      37.125   3.321  41.924    0.00     3.01
+ATOM   6248  POL STP   117      36.957   2.406  43.248    0.00     3.55
+ATOM   4413 APOL STP   117      37.537   3.377  44.685    0.00     3.05
+ATOM   4414 APOL STP   117      36.963   2.696  43.617    0.00     3.30
+ATOM   6248 APOL STP   117      36.991   2.483  43.329    0.00     3.50
+ATOM   4408 APOL STP   117      40.793   4.520  44.602    0.00     4.47
+ATOM   4408 APOL STP   117      40.709   4.502  44.598    0.00     4.42
+ATOM   4420  POL STP   117      38.232  -0.779  44.141    0.00     3.96
+TER
+END

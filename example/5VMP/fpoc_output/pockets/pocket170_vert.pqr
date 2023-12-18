@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   171:
+HEADER 0  - Pocket Score                      : -1.5927
+HEADER 1  - Drug Score                        : 0.0092
+HEADER 2  - Number of V. Vertices             :    13
+HEADER 3  - Mean alpha-sphere radius          : 4.4216
+HEADER 4  - Mean alpha-sphere SA              : 0.7784
+HEADER 5  - Mean B-factor                     : 0.7109
+HEADER 6  - Hydrophobicity Score              : 20.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.6000
+HEADER 9  - Real volume (approximation)       : 526.9488
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 7.0000
+HEADER 12 - Number of apolar alpha sphere     :     8
+HEADER 13 - Proportion of apolar alpha sphere : 0.6154
+ATOM   3090 APOL STP   171      -9.220 -27.849  42.021    0.00     5.91
+ATOM   3109 APOL STP   171      -9.283 -27.442  42.024    0.00     5.68
+ATOM   3091 APOL STP   171      -8.018 -27.204  41.644    0.00     4.86
+ATOM   3109 APOL STP   171      -8.578 -27.038  41.802    0.00     5.02
+ATOM   3109 APOL STP   171     -10.557 -26.688  42.054    0.00     5.95
+ATOM   3095 APOL STP   171      -6.151 -26.018  40.573    0.00     3.25
+ATOM   3628  POL STP   171      -5.182 -26.246  40.681    0.00     3.45
+ATOM   3627  POL STP   171      -5.630 -26.997  41.304    0.00     4.07
+ATOM   3095 APOL STP   171     -10.851 -25.049  43.856    0.00     4.62
+ATOM   3109 APOL STP   171      -9.316 -24.565  41.309    0.00     3.96
+ATOM   3467  POL STP   171      -9.278 -24.475  41.267    0.00     3.90
+ATOM   3465  POL STP   171      -9.233 -24.408  41.318    0.00     3.83
+ATOM   4223  POL STP   171      -8.427 -24.016  40.804    0.00     3.01
+TER
+END

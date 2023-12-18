@@ -1,5 +1,5 @@
-from script.basic.basic_func import t_file
-from script.basic.basic_func import vec_xyz
+from script_sincho.basic.basic_func import t_file
+from script_sincho.basic.basic_func import vec_xyz
 import numpy as np
 
 

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   175:
+HEADER 0  - Pocket Score                      : -1.6821
+HEADER 1  - Drug Score                        : 0.0645
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0267
+HEADER 4  - Mean alpha-sphere SA              : 0.6834
+HEADER 5  - Mean B-factor                     : 0.2122
+HEADER 6  - Hydrophobicity Score              : 51.1250
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 485.8493
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.0500
+ATOM     92   CA PHE A  17      27.609  -9.622  58.838  1.00 34.42           C 0
+ATOM    102    N TYR A  18      29.932  -9.702  58.117  1.00 37.46           N 0
+ATOM    108  CD1 TYR A  18      30.908  -8.437  60.685  1.00 34.45           C 0
+ATOM     87    O THR A  16      26.714  -9.679  61.489  1.00 35.37           O 0
+ATOM     97  CD1 PHE A  17      25.716 -12.376  58.841  1.00 33.87           C 0
+ATOM    248   OH TYR A  33      27.662 -17.235  58.286  1.00 41.84           O 0
+ATOM    105    O TYR A  18      32.835 -10.681  56.743  1.00 41.37           O 0
+ATOM    106   CB TYR A  18      32.250  -8.886  58.622  1.00 34.48           C 0
+ATOM    153  OE2 GLU A  23      32.278 -14.818  53.962  1.00 48.83           O 1
+ATOM    152  OE1 GLU A  23      30.701 -16.349  53.986  1.00 56.13           O 0
+ATOM    223   OH TYR A  30      28.166 -12.382  55.403  1.00 32.32           O 0
+ATOM    246  CE2 TYR A  33      26.763 -15.926  56.508  1.00 39.81           C 0
+ATOM    104    C TYR A  18      31.784 -10.117  56.508  1.00 38.48           C 0
+ATOM     95   CB PHE A  17      26.719 -10.321  57.822  1.00 36.54           C 0
+ATOM    115   CA PRO A  19      31.559 -11.234  54.305  1.00 43.12           C 0
+ATOM    114    N PRO A  19      31.103 -10.305  55.367  1.00 40.36           N 0
+ATOM     99  CE1 PHE A  17      24.646 -13.070  59.400  1.00 38.61           C 0
+ATOM    280  OE1 GLN A  37      25.150 -18.320  60.720  1.00 43.86           O 0
+ATOM    277   CG GLN A  37      23.991 -17.057  59.084  1.00 41.66           C 0
+TER
+END

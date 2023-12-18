@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   176:
+HEADER 0  - Pocket Score                      : -1.6979
+HEADER 1  - Drug Score                        : 0.0141
+HEADER 2  - Number of V. Vertices             :    12
+HEADER 3  - Mean alpha-sphere radius          : 4.4927
+HEADER 4  - Mean alpha-sphere SA              : 0.6227
+HEADER 5  - Mean B-factor                     : 0.4743
+HEADER 6  - Hydrophobicity Score              : 28.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.5000
+HEADER 9  - Real volume (approximation)       : 397.0643
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 4.0000
+HEADER 12 - Number of apolar alpha sphere     :     5
+HEADER 13 - Proportion of apolar alpha sphere : 0.4167
+ATOM   2980 APOL STP   176      12.054  -4.652  79.442    0.00     4.89
+ATOM   2980 APOL STP   176      13.547  -4.092  78.623    0.00     4.62
+ATOM   4096 APOL STP   176      13.590  -5.079  77.680    0.00     3.55
+ATOM   6141  POL STP   176      10.404  -5.527  80.112    0.00     5.60
+ATOM   6141  POL STP   176      10.351  -5.561  80.177    0.00     5.65
+ATOM   6141  POL STP   176      10.458  -5.681  79.923    0.00     5.40
+ATOM  11207  POL STP   176      10.665  -6.268  78.835    0.00     4.32
+ATOM  11210 APOL STP   176      11.173  -6.614  78.430    0.00     3.88
+ATOM   6141  POL STP   176       9.943  -4.091  77.938    0.00     4.11
+ATOM  16364  POL STP   176       8.999  -3.515  77.231    0.00     4.02
+ATOM  16364 APOL STP   176       9.706  -3.342  76.420    0.00     3.67
+ATOM  16364  POL STP   176       8.522  -3.560  77.406    0.00     4.19
+TER
+END

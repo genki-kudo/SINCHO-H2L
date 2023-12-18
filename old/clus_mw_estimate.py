@@ -4,7 +4,7 @@ import numpy as np
 from rdkit import Chem
 from rdkit.Chem import Descriptors
 from rdkit.Chem import AllChem
-from script.basic.basic_func import *
+from script_sincho.basic.basic_func import *
 from Bio.PDB import *
 from numpy import linalg as LA
 

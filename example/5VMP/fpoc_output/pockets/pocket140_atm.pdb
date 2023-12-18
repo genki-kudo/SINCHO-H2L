@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   141:
+HEADER 0  - Pocket Score                      : -0.5754
+HEADER 1  - Drug Score                        : 0.0357
+HEADER 2  - Number of V. Vertices             :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.6625
+HEADER 4  - Mean alpha-sphere SA              : 0.6306
+HEADER 5  - Mean B-factor                     : 0.1707
+HEADER 6  - Hydrophobicity Score              : 42.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.4286
+HEADER 9  - Real volume (approximation)       : 540.9423
+HEADER 10 - Charge Score                      :     2
+HEADER 11 - Local hydrophobic density Score   : 2.0000
+HEADER 12 - Number of apolar alpha sphere     :     3
+HEADER 13 - Proportion of apolar alpha sphere : 0.1579
+ATOM   1022    N ASN A 128      11.914  23.617  62.541  1.00 33.66           N 0
+ATOM   1023   CA ASN A 128      12.959  23.897  61.572  0.40 32.57           C 0
+ATOM    816   NZ LYS A 105      14.765  28.716  58.660  1.00 66.60           N 1
+ATOM   1028  ND2 ASN A 128      15.025  26.316  62.276  0.40 30.82           N 0
+ATOM   1036   CD PRO A 129      10.743  23.439  59.762  1.00 35.92           C 0
+ATOM    815   CE LYS A 105      15.653  27.927  59.558  1.00 67.06           C 0
+ATOM   1027   CG ASN A 128      15.095  25.134  61.705  0.40 29.42           C 0
+ATOM    828   OH TYR A 106      15.436  25.517  56.698  1.00 49.82           O 0
+ATOM   1035   CG PRO A 129      10.116  23.265  58.427  1.00 36.31           C 0
+ATOM   1030    N PRO A 129      12.016  22.709  59.617  1.00 36.86           N 0
+ATOM   1024    C ASN A 128      13.062  22.810  60.482  1.00 37.56           C 0
+ATOM   1029  OD1 ASN A 128      15.771  24.915  60.711  0.40 27.24           O 0
+ATOM    549  NE2 GLN A  72      12.144  23.826  54.650  1.00 29.54           N 0
+ATOM   1033    O PRO A 129      13.048  22.387  56.737  1.00 34.80           O 0
+ATOM   1017  CD1 PHE A 127       9.233  22.902  66.636  1.00 25.27           C 0
+ATOM   1012   CA PHE A 127      10.775  22.281  64.191  1.00 30.78           C 0
+ATOM   1007    O THR A 126       8.190  21.476  63.468  1.00 33.43           O 0
+ATOM   1015   CB PHE A 127      11.468  22.656  65.505  1.00 26.88           C 0
+TER
+END

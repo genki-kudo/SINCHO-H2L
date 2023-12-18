@@ -1,6 +1,6 @@
 import numpy as np
-from script.basic.basic_func import lat_gen
-from script.basic.basic_func import t_file
+from script_sincho.basic.basic_func import lat_gen
+from script_sincho.basic.basic_func import t_file
 import glob
 import os
 from rdkit import Chem

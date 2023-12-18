@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   128:
+HEADER 0  - Pocket Score                      : -0.0017
+HEADER 1  - Drug Score                        : 0.0063
+HEADER 2  - Number of V. Vertices             :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.2612
+HEADER 4  - Mean alpha-sphere SA              : 0.6775
+HEADER 5  - Mean B-factor                     : 0.4586
+HEADER 6  - Hydrophobicity Score              : 12.4000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 3.6000
+HEADER 9  - Real volume (approximation)       : 401.6966
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 5.0000
+HEADER 12 - Number of apolar alpha sphere     :     6
+HEADER 13 - Proportion of apolar alpha sphere : 0.2727
+ATOM    868  CE1 TYR A 111      26.361  13.534  66.931  1.00 47.72           C 0
+ATOM    858  NH1 ARG A 110      31.505  18.185  69.950  1.00 94.66           N 1
+ATOM    855   CD ARG A 110      29.313  19.957  69.228  1.00 90.91           C 0
+ATOM    866  CD1 TYR A 111      25.910  14.326  67.980  1.00 47.07           C 0
+ATOM    845    O PRO A 109      25.065  17.730  67.149  1.00 41.49           O 0
+ATOM    860    N TYR A 111      26.494  16.619  70.362  1.00 55.18           N 0
+ATOM    863    O TYR A 111      28.204  14.371  70.675  1.00 57.70           O 0
+ATOM    839   CB THR A 108      24.924  17.133  63.172  1.00 37.58           C 0
+ATOM   1656  OE1 GLU A 204      28.640  12.550  60.861  1.00 44.30           O 0
+ATOM    838    O THR A 108      25.126  19.786  64.615  1.00 41.22           O 0
+ATOM    840  CG2 THR A 108      24.527  15.966  64.069  1.00 39.73           C 0
+ATOM    850   CA ARG A 110      26.285  18.853  69.430  1.00 58.69           C 0
+ATOM    841  OG1 THR A 108      25.015  16.678  61.815  1.00 36.41           O 0
+ATOM    857   CZ ARG A 110      31.743  19.473  69.700  1.00 95.55           C 0
+ATOM    856   NE ARG A 110      30.745  20.315  69.388  1.00 96.18           N 0
+ATOM    844    C PRO A 109      24.663  18.811  67.583  1.00 44.47           C 0
+ATOM    849    N ARG A 110      25.162  19.415  68.666  1.00 54.61           N 0
+ATOM   1655   CD GLU A 204      28.774  13.186  59.784  1.00 37.90           C 0
+ATOM   1657  OE2 GLU A 204      29.883  13.458  59.259  1.00 36.97           O 1
+TER
+END

@@ -1,9 +1,9 @@
-from script.poc_vol_calc import poc_cbn_conv
-from script.clus_mw_estimate import poc_mw_calc
-from script.clus_mw_estimate import lig_poc_dist_list
-from script.clus_mw_estimate import estimate_idealmw
-from script.clus_mw_estimate import extend_startatom
-from script.points_rest import r_candidate
+from script_sincho.poc_vol_calc import poc_cbn_conv
+from script_sincho.clus_mw_estimate import poc_mw_calc
+from script_sincho.clus_mw_estimate import lig_poc_dist_list
+from script_sincho.clus_mw_estimate import estimate_idealmw
+from script_sincho.clus_mw_estimate import extend_startatom
+from script_sincho.points_rest import r_candidate
 import sys
 import json
 import os
