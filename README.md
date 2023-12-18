@@ -93,3 +93,14 @@ $ sincho -p ${protein}.pdb -l ${ligand}.pdb
 ```
 ```${protein}.pdb``` and ```${ligand}.pdb``` must correspond to the input files in P2C.
 
+## Output Files
+output files in SINCHO are stored in current directory or ```./sincho-output/```.
+In ```./sincho-output/```, ```cluster*.pqr.pdb``` is temporary file. ```check_terms.txt``` stored the Extend Score decomposition of each pair.
+```./sincho.log``` stores the results of the ranking pairs based on the Extend Score.
+
+## Visualization
+The SINCHO results can be viewed if the process was successful by the following code:
+```
+$ pymol ./sincho-output/sincho.pse
+```
+
