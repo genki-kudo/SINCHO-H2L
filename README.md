@@ -2,8 +2,7 @@
 
 SINCHO protocol is the method for **the prediction/suggestion of the desirable anchor atom and growth site pair** for the modification of the hitcompound in hit-to-lead process.
 
-##Installation
-###Requirements
+## Requirements
 * **Pocket to Concavity (P2C)**
 
   P2C is used for site identification.
@@ -20,11 +19,26 @@ SINCHO protocol is the method for **the prediction/suggestion of the desirable a
   * scikit-learn(1.0.2)
   * scipy(1.7.0)
   * pymol(open-source)
-  In the SINCHO protocol, you should additionally install below modules.
   * Biopython(1.79)
-    ```
-    conda install Biopython
-  
+  You should add Biopython module for the SINCHO protocol.
+  ```
+  conda install Biopython==1.79
+  ```
+
+
+## Installation
+* **SINCHO**  
+  Download this source code, and set PATH in this directory.  
+  ```
+  git clone https://github.com/genki-kudo/SINCHO-H2L.git
+  cd SINCHO-H2L/
+  echo "export PATH=\$PATH:`pwd`/bin" >> ~/.bashrc
+  source ~/.bashrc
+  ```
+
+## Preparation of Input Files
+
+In the SINCHO protocol, a **protein 3D structure file** and a **ligand 3D structure file** must be prepared as **PDB format**.
 
 
   
