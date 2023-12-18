@@ -1,5 +1,5 @@
 # SINCHO(Site Idenrification and Next CHOice) protocol for Hit-to-Lead
-
+![図1]()
 SINCHO protocol is a method for **the prediction/suggestion of the desirable anchor atom and growth site pair** for the modification of the hit compound in hit-to-lead process.
 
 ## Requirements
