@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    35:
+HEADER 0  - Pocket Score                      : 6.5417
+HEADER 1  - Drug Score                        : 0.0075
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.3520
+HEADER 4  - Mean alpha-sphere SA              : 0.5944
+HEADER 5  - Mean B-factor                     : 0.2699
+HEADER 6  - Hydrophobicity Score              : 8.7778
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 4.4444
+HEADER 9  - Real volume (approximation)       : 416.7230
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.1905
+ATOM   1463   CB HIS A 516      32.994  45.906  41.187  1.00 31.76           C 0
+ATOM   1473   CB ASN A 517      36.861  47.267  38.352  1.00 25.59           C 0
+ATOM   1639  OD2 ASP A 538      36.936  44.619  33.512  1.00 27.84           O 0
+ATOM   1482   SG CYS A 518      33.054  46.553  34.890  1.00 20.25           S 0
+ATOM   1619  NH2 ARG A 536      30.119  41.741  33.933  1.00 21.53           N 0
+ATOM   1469    N ASN A 517      34.700  47.516  39.497  1.00 23.69           N 0
+ATOM   1617   CZ ARG A 536      29.649  42.927  34.242  1.00 19.91           C 0
+ATOM   1465  ND1 HIS A 516      30.908  44.524  41.603  1.00 38.97           N 0
+ATOM   1618  NH1 ARG A 536      28.803  43.064  35.264  1.00 19.80           N 0
+ATOM   1502   OH TYR A 520      28.065  45.346  36.807  1.00 15.26           O 0
+ATOM   1454    O LEU A 515      31.440  47.997  39.249  1.00 21.21           O 0
+ATOM   1615   CD ARG A 536      29.586  45.326  33.764  1.00 17.13           C 0
+ATOM   1481   CB CYS A 518      32.141  47.956  35.548  1.00 17.22           C 0
+ATOM   2038  OD1 ASP A 587      28.433  38.878  42.432  1.00 44.10           O 0
+ATOM   2028    O PRO A 586      26.376  39.668  38.541  1.00 30.08           O 0
+ATOM   2029   CB PRO A 586      26.793  42.651  39.845  1.00 28.80           C 0
+ATOM   1616   NE ARG A 536      30.032  43.972  33.523  1.00 18.84           N 0
+TER
+END

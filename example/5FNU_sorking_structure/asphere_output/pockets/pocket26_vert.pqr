@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : 10.0019
+HEADER 1  - Drug Score                        : 0.2435
+HEADER 2  - Number of V. Vertices             :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.2268
+HEADER 4  - Mean alpha-sphere SA              : 0.3798
+HEADER 5  - Mean B-factor                     : 0.0682
+HEADER 6  - Hydrophobicity Score              : 48.8889
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.3333
+HEADER 9  - Real volume (approximation)       : 86.0843
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 19.0000
+HEADER 12 - Number of apolar alpha sphere     :    20
+HEADER 13 - Proportion of apolar alpha sphere : 0.9091
+ATOM   7849  POL STP    27      23.843  51.959  34.782    0.00     3.07
+ATOM   9961 APOL STP    27      23.800  51.890  34.786    0.00     3.07
+ATOM   7849  POL STP    27      23.947  52.011  34.696    0.00     3.01
+ATOM   9609 APOL STP    27      22.820  45.984  35.107    0.00     3.05
+ATOM   9731 APOL STP    27      22.949  46.129  35.160    0.00     3.10
+ATOM   9731 APOL STP    27      23.108  46.361  35.178    0.00     3.15
+ATOM  11666 APOL STP    27      23.275  46.859  35.465    0.00     3.16
+ATOM   9731 APOL STP    27      23.459  46.491  35.224    0.00     3.15
+ATOM  11659 APOL STP    27      23.503  46.507  35.180    0.00     3.11
+ATOM  11666 APOL STP    27      23.456  46.510  35.236    0.00     3.15
+ATOM   9731 APOL STP    27      23.595  46.297  35.246    0.00     3.04
+ATOM   9962 APOL STP    27      23.131  50.222  35.771    0.00     3.47
+ATOM   9962 APOL STP    27      23.125  49.928  35.611    0.00     3.49
+ATOM   9962 APOL STP    27      22.090  50.349  36.045    0.00     3.14
+ATOM   9962 APOL STP    27      22.987  50.166  35.843    0.00     3.46
+ATOM   9962 APOL STP    27      22.788  49.855  35.811    0.00     3.48
+ATOM  11662 APOL STP    27      23.258  49.754  35.591    0.00     3.39
+ATOM   3446 APOL STP    27      22.852  49.507  35.736    0.00     3.41
+ATOM   9962 APOL STP    27      22.837  49.745  35.715    0.00     3.50
+ATOM   9962 APOL STP    27      22.560  49.641  35.490    0.00     3.28
+ATOM  11662 APOL STP    27      23.089  48.690  35.754    0.00     3.20
+ATOM  11666 APOL STP    27      23.247  47.429  36.106    0.00     3.13
+TER
+END

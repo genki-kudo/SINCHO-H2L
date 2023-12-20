@@ -1,0 +1,15 @@
+2023-12-20 17:05:41.938922
+Selected Mode
+>> LB
+Selected PDB protein file
+>> /home/user01/GIT-repository/02-EXTEND-POINT/example/5FNU_sorking_structure/5FNU_REC.pdb
+Selected PDB ligand file
+>> /home/user01/GIT-repository/02-EXTEND-POINT/example/5FNU_sorking_structure/HIT.pdb
+Distance of include pocket
+>> 10.0
+Clustering method in empty sites identification
+>> CENTROID
+Clustering threshold in empty sites identification
+>> 4.5
+***** POCKET HUNTING BEGINS ***** 
+***** POCKET HUNTING ENDS ***** 

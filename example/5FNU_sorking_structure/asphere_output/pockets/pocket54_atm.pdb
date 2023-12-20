@@ -1,0 +1,33 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : 4.4343
+HEADER 1  - Drug Score                        : 0.0042
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1924
+HEADER 4  - Mean alpha-sphere SA              : 0.6697
+HEADER 5  - Mean B-factor                     : 0.1431
+HEADER 6  - Hydrophobicity Score              : -19.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 2.6667
+HEADER 9  - Real volume (approximation)       : 264.2226
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1024   NE ARG A 459      29.361  73.644  21.638  1.00 25.05           N 0
+ATOM   1025   CZ ARG A 459      29.021  74.531  20.700  1.00 28.43           C 0
+ATOM    817  CG2 ILE A 435      25.530  77.357  25.953  1.00 19.25           C 0
+ATOM   1027  NH2 ARG A 459      29.835  75.533  20.398  1.00 29.77           N 0
+ATOM    822    O HIS A 436      27.006  73.262  24.873  1.00 15.09           O 0
+ATOM    849   CB SER A 439      31.820  74.885  30.607  1.00 14.45           C 0
+ATOM    835  ND1 HIS A 437      26.814  75.900  29.054  1.00 14.29           N 0
+ATOM    844   OG SER A 438      32.462  72.899  25.850  1.00 15.28           O 0
+ATOM    839    N SER A 438      29.851  72.418  27.069  1.00 13.54           N 0
+ATOM    845    N SER A 439      31.425  72.950  29.113  1.00 13.18           N 0
+ATOM    850   OG SER A 439      30.454  75.018  30.979  1.00 13.91           O 0
+ATOM    830   CA HIS A 437      27.616  73.238  27.605  1.00 13.23           C 0
+TER
+END

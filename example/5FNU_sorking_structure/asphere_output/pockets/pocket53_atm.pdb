@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    54:
+HEADER 0  - Pocket Score                      : 4.4657
+HEADER 1  - Drug Score                        : 0.0055
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.2626
+HEADER 4  - Mean alpha-sphere SA              : 0.6439
+HEADER 5  - Mean B-factor                     : 0.2827
+HEADER 6  - Hydrophobicity Score              : 0.8571
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 3.7143
+HEADER 9  - Real volume (approximation)       : 469.8808
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.0952
+ATOM   1553  NE2 GLN A 528      17.154  55.460  15.732  1.00 50.42           N 0
+ATOM   1536    O ASP A 526      18.536  58.449  19.033  1.00 23.36           O 0
+ATOM   1192  OD1 ASN A 482      23.187  63.524  14.872  1.00 30.04           O 0
+ATOM   1550   CG GLN A 528      15.248  56.835  16.386  1.00 45.12           C 0
+ATOM   1544    O GLY A 527      14.344  60.082  18.150  1.00 29.23           O 0
+ATOM   1542   CA GLY A 527      16.378  60.121  19.401  1.00 25.57           C 0
+ATOM   1543    C GLY A 527      15.162  59.436  18.803  1.00 28.01           C 0
+ATOM   1203  NH1 ARG A 483      17.367  63.908  19.167  1.00 21.36           N 0
+ATOM   1400  CD1 ILE A 506      23.703  56.708  17.871  1.00 19.83           C 0
+ATOM   1197    O ARG A 483      24.216  60.814  19.429  1.00 18.48           O 0
+ATOM   1399  CG2 ILE A 506      22.626  57.901  20.687  1.00 16.27           C 0
+ATOM   1198   CB ARG A 483      21.363  61.018  21.150  1.00 16.61           C 0
+ATOM   1194    N ARG A 483      22.335  62.658  19.528  1.00 18.92           N 0
+ATOM   1190   CB ASN A 482      24.183  63.631  17.048  1.00 24.68           C 0
+ATOM   1200   CD ARG A 483      19.194  62.264  20.656  1.00 18.59           C 0
+ATOM   1182    O THR A 481      21.131  65.975  16.757  1.00 24.42           O 0
+ATOM   1187   CA ASN A 482      23.034  64.251  17.845  1.00 22.80           C 0
+TER
+END

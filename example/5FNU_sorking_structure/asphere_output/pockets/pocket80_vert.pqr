@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    81:
+HEADER 0  - Pocket Score                      : 1.8447
+HEADER 1  - Drug Score                        : 0.0397
+HEADER 2  - Number of V. Vertices             :    13
+HEADER 3  - Mean alpha-sphere radius          : 4.4213
+HEADER 4  - Mean alpha-sphere SA              : 0.7172
+HEADER 5  - Mean B-factor                     : 0.1771
+HEADER 6  - Hydrophobicity Score              : 42.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.7143
+HEADER 9  - Real volume (approximation)       : 348.4272
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.5385
+ATOM   3873  POL STP    81      39.967  68.508  27.456    0.00     3.22
+ATOM   3873  POL STP    81      42.256  69.232  26.786    0.00     4.35
+ATOM  14076 APOL STP    81      42.342  70.173  26.938    0.00     4.97
+ATOM  14076  POL STP    81      41.653  70.011  27.151    0.00     4.55
+ATOM  14076 APOL STP    81      42.683  70.559  26.653    0.00     5.31
+ATOM  14076 APOL STP    81      42.436  70.208  27.030    0.00     4.93
+ATOM  14076 APOL STP    81      42.349  70.157  26.991    0.00     4.93
+ATOM   8525 APOL STP    81      43.529  69.534  28.352    0.00     3.58
+ATOM   8525  POL STP    81      44.344  69.815  28.285    0.00     3.83
+ATOM  10778  POL STP    81      38.825  71.350  24.846    0.00     4.07
+ATOM  13068 APOL STP    81      41.564  71.697  25.878    0.00     5.24
+ATOM  14073 APOL STP    81      41.992  71.552  26.185    0.00     5.43
+ATOM  14069  POL STP    81      40.174  69.223  28.936    0.00     3.06
+TER
+END

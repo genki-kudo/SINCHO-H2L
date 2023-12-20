@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : 6.3884
+HEADER 1  - Drug Score                        : 0.1678
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6275
+HEADER 4  - Mean alpha-sphere SA              : 0.5955
+HEADER 5  - Mean B-factor                     : 0.1347
+HEADER 6  - Hydrophobicity Score              : 59.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 5.0000
+HEADER 9  - Real volume (approximation)       : 301.3437
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.6111
+ATOM    971   CB LEU A 452      35.697  77.178  35.015  1.00 24.45           C 0
+ATOM    978    O VAL A 453      37.370  73.985  32.969  1.00 18.70           O 0
+ATOM    974  CD2 LEU A 452      33.365  76.758  34.015  1.00 22.77           C 0
+ATOM    973  CD1 LEU A 452      34.441  79.044  33.982  1.00 30.28           C 0
+ATOM    993   CD PRO A 455      37.839  73.385  29.161  1.00 18.19           C 0
+ATOM    991   CB PRO A 455      35.675  72.822  28.293  1.00 16.27           C 0
+ATOM    849   CB SER A 439      31.820  74.885  30.607  1.00 14.45           C 0
+ATOM    992   CG PRO A 455      37.019  73.371  27.889  1.00 18.07           C 0
+ATOM    851    N VAL A 440      32.804  72.636  32.467  1.00 12.37           N 0
+ATOM    854    O VAL A 440      34.300  73.565  34.601  1.00 12.98           O 0
+ATOM    846   CA SER A 439      32.123  73.422  30.300  1.00 13.42           C 0
+ATOM    988   CA PRO A 455      35.984  71.783  29.388  1.00 15.51           C 0
+ATOM    987    N PRO A 455      37.248  72.281  29.971  1.00 16.55           N 0
+ATOM    845    N SER A 439      31.425  72.950  29.113  1.00 13.18           N 0
+ATOM    844   OG SER A 438      32.462  72.899  25.850  1.00 15.28           O 0
+TER
+END

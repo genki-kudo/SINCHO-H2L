@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : 13.8770
+HEADER 1  - Drug Score                        : 0.0105
+HEADER 2  - Number of V. Vertices             :    35
+HEADER 3  - Mean alpha-sphere radius          : 4.4719
+HEADER 4  - Mean alpha-sphere SA              : 0.6638
+HEADER 5  - Mean B-factor                     : 0.4373
+HEADER 6  - Hydrophobicity Score              : -7.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Volume Score                      : 3.7143
+HEADER 9  - Real volume (approximation)       : 763.0983
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 14.0000
+HEADER 12 - Number of apolar alpha sphere     :    15
+HEADER 13 - Proportion of apolar alpha sphere : 0.4286
+ATOM   2087   CD GLU A 593       9.228  46.521  38.546  1.00 38.46           C 0
+ATOM   2109   CG ARG A 596       5.511  50.614  42.580  1.00 33.46           C 0
+ATOM   2086   CG GLU A 593       9.370  45.167  39.229  1.00 37.63           C 0
+ATOM   2085   CB GLU A 593       9.738  45.248  40.697  1.00 34.06           C 0
+ATOM   2110   CD ARG A 596       4.014  50.354  42.621  1.00 41.51           C 0
+ATOM   2088  OE1 GLU A 593       9.409  47.586  39.186  1.00 36.47           O 0
+ATOM   2100    O THR A 595       9.235  50.115  43.019  1.00 25.08           O 0
+ATOM   1975   CA SER A 580       8.989  51.766  39.029  1.00 18.99           C 0
+ATOM   1978   CB SER A 580       9.090  50.935  37.732  1.00 20.01           C 0
+ATOM   1972  OD1 ASP A 579       5.231  52.881  39.357  1.00 22.79           O 0
+ATOM   1757  CE1 HIS A 552       7.804  48.735  34.593  1.00 38.70           C 0
+ATOM   2113  NH1 ARG A 596       1.257  50.322  41.866  1.00 52.03           N 0
+ATOM   2089  OE2 GLU A 593       8.926  46.515  37.336  1.00 43.01           O 0
+ATOM   2111   NE ARG A 596       3.290  51.417  41.921  1.00 46.50           N 0
+ATOM   2112   CZ ARG A 596       2.002  51.380  41.579  1.00 49.25           C 0
+ATOM   1758  NE2 HIS A 552       8.658  47.971  35.254  1.00 37.40           N 0
+ATOM   2093    O VAL A 594      10.506  46.971  46.433  1.00 30.74           O 0
+ATOM   2098   CA THR A 595       9.309  49.281  45.289  1.00 28.88           C 0
+ATOM   2097    N THR A 595      10.290  48.387  44.677  1.00 27.32           N 0
+ATOM   2099    C THR A 595       8.769  50.172  44.169  1.00 27.00           C 0
+ATOM   2092    C VAL A 594      10.838  47.353  45.303  1.00 29.83           C 0
+ATOM   2084    O GLU A 593      11.250  44.339  43.131  1.00 30.29           O 0
+ATOM   2083    C GLU A 593      11.406  45.391  42.496  1.00 29.85           C 0
+TER
+END

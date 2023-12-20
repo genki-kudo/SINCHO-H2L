@@ -1,0 +1,27 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   138:
+HEADER 0  - Pocket Score                      : -1.2666
+HEADER 1  - Drug Score                        : 0.0041
+HEADER 2  - Number of V. Vertices             :     5
+HEADER 3  - Mean alpha-sphere radius          : 3.9882
+HEADER 4  - Mean alpha-sphere SA              : 0.8546
+HEADER 5  - Mean B-factor                     : 0.3903
+HEADER 6  - Hydrophobicity Score              : -12.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 155.8765
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2422  POL STP   138       7.960  49.662  58.113    0.00     4.27
+ATOM   2422  POL STP   138       7.794  49.976  57.970    0.00     4.36
+ATOM   3645  POL STP   138       7.428  50.269  55.038    0.00     3.30
+ATOM   3648  POL STP   138       6.495  49.967  54.161    0.00     3.91
+ATOM   3648  POL STP   138       6.271  49.936  54.133    0.00     4.10
+TER
+END

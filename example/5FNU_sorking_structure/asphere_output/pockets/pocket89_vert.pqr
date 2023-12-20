@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    90:
+HEADER 0  - Pocket Score                      : 1.3863
+HEADER 1  - Drug Score                        : 0.0112
+HEADER 2  - Number of V. Vertices             :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.5914
+HEADER 4  - Mean alpha-sphere SA              : 0.6660
+HEADER 5  - Mean B-factor                     : 0.7968
+HEADER 6  - Hydrophobicity Score              : 25.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.6667
+HEADER 9  - Real volume (approximation)       : 591.7198
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.1111
+ATOM   2312  POL STP    90      19.469  56.974  64.661    0.00     5.57
+ATOM   2789  POL STP    90      19.535  57.149  64.240    0.00     5.35
+ATOM   4976  POL STP    90      19.407  56.383  63.093    0.00     4.32
+ATOM   2789  POL STP    90      20.313  57.763  63.720    0.00     5.09
+ATOM   3515  POL STP    90      21.316  58.261  63.955    0.00     5.33
+ATOM   3519  POL STP    90      21.613  58.290  64.386    0.00     5.58
+ATOM   4947  POL STP    90      22.103  58.350  62.869    0.00     4.77
+ATOM   3519  POL STP    90      22.122  58.342  64.878    0.00     5.91
+ATOM   4976  POL STP    90      19.363  56.198  63.070    0.00     4.24
+ATOM   4976  POL STP    90      19.437  56.273  62.826    0.00     4.11
+ATOM   3519 APOL STP    90      21.231  60.000  64.180    0.00     4.22
+ATOM   4949  POL STP    90      21.569  57.578  60.748    0.00     3.60
+ATOM   4949  POL STP    90      21.541  57.597  60.790    0.00     3.62
+ATOM   4949  POL STP    90      21.533  57.622  60.853    0.00     3.65
+ATOM   4949  POL STP    90      21.515  57.637  60.781    0.00     3.60
+ATOM   4949 APOL STP    90      23.790  58.525  63.693    0.00     5.54
+ATOM   7167  POL STP    90      18.837  58.458  62.737    0.00     3.89
+ATOM   7168  POL STP    90      18.320  57.900  63.241    0.00     4.26
+TER
+END

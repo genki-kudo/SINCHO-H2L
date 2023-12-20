@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   144:
+HEADER 0  - Pocket Score                      : -1.4138
+HEADER 1  - Drug Score                        : 0.0136
+HEADER 2  - Number of V. Vertices             :    14
+HEADER 3  - Mean alpha-sphere radius          : 4.1698
+HEADER 4  - Mean alpha-sphere SA              : 0.6442
+HEADER 5  - Mean B-factor                     : 0.3353
+HEADER 6  - Hydrophobicity Score              : 28.8333
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Volume Score                      : 3.5000
+HEADER 9  - Real volume (approximation)       : 478.1447
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.5000
+ATOM     91   CZ ARG A 336      -2.213  64.995  34.733  1.00 55.32           C 0
+ATOM     90   NE ARG A 336      -0.933  65.206  35.047  1.00 46.59           N 0
+ATOM     93  NH2 ARG A 336      -2.661  63.747  34.634  1.00 56.12           N 0
+ATOM   1955  CE1 PHE A 577       5.448  62.351  31.099  1.00 21.42           C 0
+ATOM     80  CE1 PHE A 335       2.357  62.187  35.274  1.00 23.07           C 0
+ATOM     88   CG ARG A 336       1.214  66.403  35.046  1.00 31.30           C 0
+ATOM   1933    O HIS A 575       2.758  57.754  28.979  1.00 23.89           O 0
+ATOM   1953  CD1 PHE A 577       5.272  61.462  32.145  1.00 20.36           C 0
+ATOM     71   OH TYR A 334       5.910  68.691  31.555  1.00 24.44           O 0
+ATOM   1957   CZ PHE A 577       6.675  63.006  30.958  1.00 20.44           C 0
+ATOM     69  CE2 TYR A 334       7.036  66.769  32.405  1.00 20.13           C 0
+ATOM     83    N ARG A 336       4.160  66.589  34.757  1.00 22.13           N 0
+ATOM     84   CA ARG A 336       3.301  67.748  34.393  1.00 24.89           C 0
+ATOM     78  CD1 PHE A 335       3.588  62.729  35.647  1.00 21.35           C 0
+ATOM     82   CZ PHE A 335       1.226  62.463  36.032  1.00 24.69           C 0
+ATOM   1914  CE1 TYR A 572       6.797  59.886  28.658  1.00 21.26           C 0
+ATOM   1917   OH TYR A 572       6.254  60.308  26.372  1.00 24.75           O 0
+TER
+END

@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    70:
+HEADER 0  - Pocket Score                      : 2.9056
+HEADER 1  - Drug Score                        : 0.0042
+HEADER 2  - Number of V. Vertices             :    12
+HEADER 3  - Mean alpha-sphere radius          : 3.7655
+HEADER 4  - Mean alpha-sphere SA              : 0.6052
+HEADER 5  - Mean B-factor                     : 0.6000
+HEADER 6  - Hydrophobicity Score              : -10.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 3.7500
+HEADER 9  - Real volume (approximation)       : 273.6542
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 1.0000
+HEADER 12 - Number of apolar alpha sphere     :     2
+HEADER 13 - Proportion of apolar alpha sphere : 0.1667
+ATOM   2659  POL STP    70       8.762  40.042  40.446    0.00     5.30
+ATOM   2659  POL STP    70      10.157  41.655  38.648    0.00     3.65
+ATOM   4564  POL STP    70      10.775  41.376  38.669    0.00     3.58
+ATOM   4564  POL STP    70      11.284  41.666  38.524    0.00     3.29
+ATOM   4559  POL STP    70      11.091  38.932  39.527    0.00     4.39
+ATOM   4559  POL STP    70      12.230  39.744  38.797    0.00     3.53
+ATOM   4560 APOL STP    70      11.969  40.591  38.656    0.00     3.34
+ATOM   4560 APOL STP    70      10.928  40.915  39.004    0.00     3.78
+ATOM   4564  POL STP    70      11.969  40.725  38.574    0.00     3.28
+ATOM   4560  POL STP    70      10.898  40.894  39.023    0.00     3.80
+ATOM   4564  POL STP    70      10.861  41.252  38.741    0.00     3.62
+ATOM   4564  POL STP    70      11.035  41.169  38.794    0.00     3.62
+TER
+END

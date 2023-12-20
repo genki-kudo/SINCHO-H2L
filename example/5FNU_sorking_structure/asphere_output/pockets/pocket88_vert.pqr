@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    89:
+HEADER 0  - Pocket Score                      : 1.3942
+HEADER 1  - Drug Score                        : 0.0720
+HEADER 2  - Number of V. Vertices             :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.4018
+HEADER 4  - Mean alpha-sphere SA              : 0.4271
+HEADER 5  - Mean B-factor                     : 0.1944
+HEADER 6  - Hydrophobicity Score              : 51.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 153.5365
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 5.0000
+HEADER 12 - Number of apolar alpha sphere     :     6
+HEADER 13 - Proportion of apolar alpha sphere : 0.4000
+ATOM   2382  POL STP    89       3.357  68.545  39.690    0.00     3.24
+ATOM   2445  POL STP    89       2.335  67.887  40.388    0.00     3.97
+ATOM   2445  POL STP    89       3.119  65.994  40.116    0.00     3.43
+ATOM   3757 APOL STP    89       3.897  65.518  39.693    0.00     3.07
+ATOM   3758 APOL STP    89       4.074  64.822  40.310    0.00     3.33
+ATOM   3758 APOL STP    89       4.568  64.425  40.508    0.00     3.36
+ATOM   7425  POL STP    89       4.223  63.969  40.579    0.00     3.49
+ATOM   5110 APOL STP    89       4.726  64.536  40.681    0.00     3.20
+ATOM   5110 APOL STP    89       4.584  64.251  40.560    0.00     3.40
+ATOM   7425  POL STP    89       4.450  64.001  40.609    0.00     3.47
+ATOM   7425 APOL STP    89       4.713  63.906  40.576    0.00     3.41
+ATOM   7425  POL STP    89       4.994  63.605  40.440    0.00     3.30
+ATOM   7425  POL STP    89       4.257  63.384  40.285    0.00     3.28
+ATOM   7425  POL STP    89       3.508  62.511  40.172    0.00     3.10
+ATOM   2882  POL STP    89       4.479  69.829  42.946    0.00     3.97
+TER
+END

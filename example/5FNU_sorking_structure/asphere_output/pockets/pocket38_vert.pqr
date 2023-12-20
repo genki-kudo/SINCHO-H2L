@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : 6.1522
+HEADER 1  - Drug Score                        : 0.0129
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.5993
+HEADER 4  - Mean alpha-sphere SA              : 0.6111
+HEADER 5  - Mean B-factor                     : 0.1925
+HEADER 6  - Hydrophobicity Score              : 23.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 4.0000
+HEADER 9  - Real volume (approximation)       : 283.1212
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.0476
+ATOM   4216  POL STP    39      31.964  79.913  39.120    0.00     3.52
+ATOM  11102  POL STP    39      33.158  79.319  38.164    0.00     3.61
+ATOM  11044  POL STP    39      32.692  78.728  39.032    0.00     3.02
+ATOM   3097  POL STP    39      31.233  81.396  40.068    0.00     4.20
+ATOM   3097  POL STP    39      31.611  80.778  39.505    0.00     3.85
+ATOM   4200  POL STP    39      29.604  81.519  39.695    0.00     3.31
+ATOM   4215  POL STP    39      31.205  81.101  40.106    0.00     4.04
+ATOM   4216  POL STP    39      31.690  80.347  39.383    0.00     3.68
+ATOM   4227  POL STP    39      29.532  81.382  39.700    0.00     3.19
+ATOM   4216  POL STP    39      31.691  79.954  39.206    0.00     3.48
+ATOM  11102  POL STP    39      33.217  78.637  38.509    0.00     3.26
+ATOM  11099  POL STP    39      33.113  78.958  37.662    0.00     3.37
+ATOM  11102 APOL STP    39      33.817  80.370  37.615    0.00     3.92
+ATOM  11102  POL STP    39      33.975  80.782  37.787    0.00     4.21
+ATOM  11102  POL STP    39      33.230  78.634  38.516    0.00     3.25
+ATOM  11048  POL STP    39      33.216  78.443  38.559    0.00     3.17
+ATOM  11099  POL STP    39      33.229  78.364  38.539    0.00     3.14
+ATOM  11102  POL STP    39      33.220  78.583  38.520    0.00     3.24
+ATOM  11100  POL STP    39      33.235  78.102  38.527    0.00     3.03
+ATOM  11102  POL STP    39      35.636  82.046  37.829    0.00     5.02
+ATOM  11102  POL STP    39      35.760  81.023  38.360    0.00     4.08
+TER
+END

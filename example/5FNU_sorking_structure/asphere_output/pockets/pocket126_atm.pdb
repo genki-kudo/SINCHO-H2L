@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket   127:
+HEADER 0  - Pocket Score                      : -0.7202
+HEADER 1  - Drug Score                        : 0.0054
+HEADER 2  - Number of V. Vertices             :    10
+HEADER 3  - Mean alpha-sphere radius          : 3.5237
+HEADER 4  - Mean alpha-sphere SA              : 0.5713
+HEADER 5  - Mean B-factor                     : 0.3481
+HEADER 6  - Hydrophobicity Score              : 7.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 3.3333
+HEADER 9  - Real volume (approximation)       : 124.1148
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     1
+HEADER 13 - Proportion of apolar alpha sphere : 0.1000
+ATOM   1276   CG PRO A 492      40.820  64.411  38.775  1.00 16.98           C 0
+ATOM    764   OH TYR A 426      38.471  67.703  40.308  1.00 17.42           O 0
+ATOM    721  CG2 ILE A 421      38.393  62.955  42.921  1.00 20.35           C 0
+ATOM   1275   CB PRO A 492      41.804  65.501  39.065  1.00 18.07           C 0
+ATOM    730  OD2 ASP A 422      41.269  63.500  45.559  1.00 38.89           O 0
+ATOM    718    O ILE A 421      36.734  65.380  45.073  1.00 20.18           O 0
+ATOM    727   CB ASP A 422      39.400  64.425  46.678  1.00 28.18           C 0
+ATOM    719   CB ILE A 421      37.003  63.576  42.638  1.00 18.25           C 0
+ATOM    741  ND1 HIS A 424      38.343  69.076  45.698  1.00 25.52           N 0
+ATOM    743  CE1 HIS A 424      39.041  69.658  46.657  1.00 26.87           C 0
+ATOM    876  NH1 ARG A 442      40.320  71.215  41.630  1.00 50.06           N 0
+ATOM    875   CZ ARG A 442      39.553  71.756  42.584  1.00 46.99           C 0
+ATOM    877  NH2 ARG A 442      40.087  72.578  43.480  1.00 49.97           N 0
+TER
+END

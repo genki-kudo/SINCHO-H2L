@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    63:
+HEADER 0  - Pocket Score                      : 3.2549
+HEADER 1  - Drug Score                        : 0.1177
+HEADER 2  - Number of V. Vertices             :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.3925
+HEADER 4  - Mean alpha-sphere SA              : 0.6622
+HEADER 5  - Mean B-factor                     : 0.2134
+HEADER 6  - Hydrophobicity Score              : 56.1667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 4.3333
+HEADER 9  - Real volume (approximation)       : 516.3110
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.5500
+ATOM   1532   OH TYR A 525      13.169  61.326  20.798  1.00 27.06           O 0
+ATOM   1570  NE2 GLN A 530      10.774  58.056  24.693  1.00 18.53           N 0
+ATOM   1915  CE2 TYR A 572       8.569  60.049  27.008  1.00 20.71           C 0
+ATOM   1917   OH TYR A 572       6.254  60.308  26.372  1.00 24.75           O 0
+ATOM   1531   CZ TYR A 525      13.952  60.834  21.818  1.00 23.36           C 0
+ATOM   1530  CE2 TYR A 525      15.069  61.533  22.249  1.00 21.44           C 0
+ATOM   1913  CD2 TYR A 572       9.513  59.819  28.002  1.00 18.65           C 0
+ATOM   1529  CE1 TYR A 525      13.600  59.616  22.411  1.00 22.42           C 0
+ATOM   1528  CD2 TYR A 525      15.854  61.013  23.290  1.00 19.16           C 0
+ATOM   1527  CD1 TYR A 525      14.388  59.107  23.448  1.00 19.24           C 0
+ATOM   1526   CG TYR A 525      15.522  59.792  23.902  1.00 18.51           C 0
+ATOM   1785   OG SER A 555      13.699  59.025  28.570  1.00 14.94           O 0
+ATOM   1929    O GLY A 574       5.270  57.218  24.986  1.00 24.53           O 0
+ATOM   1548    O GLN A 528      11.931  56.803  19.805  1.00 32.11           O 0
+ATOM   1927   CA GLY A 574       7.540  57.005  25.788  1.00 21.03           C 0
+TER
+END

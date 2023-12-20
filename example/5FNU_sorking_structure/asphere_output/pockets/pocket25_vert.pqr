@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : 11.2383
+HEADER 1  - Drug Score                        : 0.4575
+HEADER 2  - Number of V. Vertices             :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.2020
+HEADER 4  - Mean alpha-sphere SA              : 0.4351
+HEADER 5  - Mean B-factor                     : 0.1327
+HEADER 6  - Hydrophobicity Score              : 54.6250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.3750
+HEADER 9  - Real volume (approximation)       : 76.4982
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 21.0000
+HEADER 12 - Number of apolar alpha sphere     :    22
+HEADER 13 - Proportion of apolar alpha sphere : 1.0000
+ATOM   2849 APOL STP    26      14.433  57.755  46.299    0.00     3.07
+ATOM   7283 APOL STP    26      14.432  57.588  46.338    0.00     3.03
+ATOM   5142 APOL STP    26      14.511  57.805  46.267    0.00     3.06
+ATOM   7224 APOL STP    26      15.498  53.458  45.155    0.00     3.34
+ATOM  10859 APOL STP    26      15.518  53.449  45.197    0.00     3.37
+ATOM  10854 APOL STP    26      16.040  52.973  44.792    0.00     3.22
+ATOM  10854 APOL STP    26      16.038  52.890  44.823    0.00     3.19
+ATOM  10854 APOL STP    26      15.431  52.475  45.632    0.00     3.22
+ATOM   7284 APOL STP    26      14.096  54.045  45.898    0.00     3.27
+ATOM  12813 APOL STP    26      14.941  54.254  46.146    0.00     3.27
+ATOM   3560 APOL STP    26      13.358  53.199  45.729    0.00     3.16
+ATOM   7236 APOL STP    26      13.097  53.238  45.475    0.00     3.02
+ATOM   3561 APOL STP    26      13.892  53.726  45.618    0.00     3.37
+ATOM  10859 APOL STP    26      15.205  53.474  45.531    0.00     3.46
+ATOM   7284 APOL STP    26      13.933  53.850  45.723    0.00     3.33
+ATOM   7237 APOL STP    26      13.596  53.825  45.274    0.00     3.18
+ATOM   3560 APOL STP    26      13.740  53.900  46.090    0.00     3.07
+ATOM   7284 APOL STP    26      13.820  53.938  46.018    0.00     3.14
+ATOM  12809 APOL STP    26      15.240  53.786  45.790    0.00     3.38
+ATOM  12802 APOL STP    26      15.747  53.753  45.255    0.00     3.22
+ATOM  12809 APOL STP    26      15.441  53.974  46.439    0.00     3.04
+ATOM  12813 APOL STP    26      15.213  54.254  46.575    0.00     3.04
+TER
+END

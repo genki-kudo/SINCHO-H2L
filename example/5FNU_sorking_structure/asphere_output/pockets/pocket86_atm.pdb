@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    87:
+HEADER 0  - Pocket Score                      : 1.5655
+HEADER 1  - Drug Score                        : 0.0536
+HEADER 2  - Number of V. Vertices             :    13
+HEADER 3  - Mean alpha-sphere radius          : 3.7636
+HEADER 4  - Mean alpha-sphere SA              : 0.5053
+HEADER 5  - Mean B-factor                     : 0.4151
+HEADER 6  - Hydrophobicity Score              : 46.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 4.8571
+HEADER 9  - Real volume (approximation)       : 258.9652
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 6.0000
+HEADER 12 - Number of apolar alpha sphere     :     7
+HEADER 13 - Proportion of apolar alpha sphere : 0.5385
+ATOM    542  OD1 ASN A 397      22.589  67.463  58.462  1.00 27.38           O 0
+ATOM    357    O GLY A 371      28.759  65.119  55.687  1.00 28.32           O 0
+ATOM    543  ND2 ASN A 397      22.972  69.523  59.234  1.00 28.53           N 0
+ATOM    556   CG MET A 399      22.637  65.087  61.273  1.00 42.06           C 0
+ATOM    369  CD2 LEU A 373      25.067  68.158  55.756  1.00 26.19           C 0
+ATOM   2204   SD MET A 610      23.339  61.616  57.672  1.00 57.25           S 0
+ATOM   2205   CE MET A 610      24.904  61.883  58.518  1.00 56.55           C 0
+ATOM    550   CD PRO A 398      21.525  65.283  56.030  1.00 23.32           C 0
+ATOM    361    O GLY A 372      24.693  63.820  54.660  1.00 29.03           O 0
+ATOM    360    C GLY A 372      25.871  64.093  54.373  1.00 27.20           C 0
+ATOM    359   CA GLY A 372      26.998  63.152  54.791  1.00 28.46           C 0
+ATOM    367   CG LEU A 373      26.236  68.033  54.777  1.00 24.96           C 0
+ATOM    368  CD1 LEU A 373      27.000  69.347  54.677  1.00 25.59           C 0
+TER
+END

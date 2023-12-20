@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket   110:
+HEADER 0  - Pocket Score                      : 0.1303
+HEADER 1  - Drug Score                        : 0.0260
+HEADER 2  - Number of V. Vertices             :    12
+HEADER 3  - Mean alpha-sphere radius          : 3.7145
+HEADER 4  - Mean alpha-sphere SA              : 0.6405
+HEADER 5  - Mean B-factor                     : 0.1358
+HEADER 6  - Hydrophobicity Score              : 38.6667
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Volume Score                      : 3.8333
+HEADER 9  - Real volume (approximation)       : 420.0768
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 0.0000
+HEADER 12 - Number of apolar alpha sphere     :     0
+HEADER 13 - Proportion of apolar alpha sphere : 0.0000
+ATOM   8186  POL STP   110      34.714  73.255  20.942    0.00     5.41
+ATOM  10778  POL STP   110      38.258  71.955  22.229    0.00     5.31
+ATOM  11146  POL STP   110      35.553  72.854  25.119    0.00     3.18
+ATOM  11386  POL STP   110      32.833  71.118  22.546    0.00     3.62
+ATOM  11386  POL STP   110      32.915  70.546  23.155    0.00     3.20
+ATOM   8186  POL STP   110      33.346  72.054  21.736    0.00     4.29
+ATOM  11386  POL STP   110      33.029  71.450  22.372    0.00     3.81
+ATOM  11386  POL STP   110      33.896  71.237  23.216    0.00     3.43
+ATOM  14472  POL STP   110      32.822  70.276  23.016    0.00     3.01
+ATOM  13918  POL STP   110      32.990  70.465  23.287    0.00     3.13
+ATOM  12609  POL STP   110      33.608  70.699  23.520    0.00     3.12
+ATOM  13918  POL STP   110      33.259  70.490  23.462    0.00     3.07
+TER
+END

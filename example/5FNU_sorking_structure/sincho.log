@@ -1,0 +1,23 @@
+Ligand file>> HIT.pdb >>OK.
+Pocket cluster directory>> ./p2c_output/cluster/
+Fpocket output directory>> ./asphere_output/
+Output directory>> ./sincho-output/
+Output directory: ./sincho-output/ will be generated.
+(A) P2C execution is skipped
+Candidate pockets were selected>> ./p2c_output/cluster//*.pqr
+(B) extend score is calculating ...
+(D) molecular weight is estimating ...
+##### RESULTS #####
+cluster5.pqr_10_C22 estimate-mw: 119.46949157460818
+cluster5.pqr_8_C20 estimate-mw: 122.66874175373349
+cluster8.pqr_12_C39 estimate-mw: 125.15543334221887
+cluster2.pqr_8_C20 estimate-mw: 182.83218340733018
+cluster2.pqr_7_C19 estimate-mw: 180.1469105639289
+cluster9.pqr_10_C22 estimate-mw: 126.2247666075931
+cluster8.pqr_1_C13 estimate-mw: 122.76716133290692
+cluster9.pqr_11_C23 estimate-mw: 121.59758043588474
+cluster7.pqr_10_C22 estimate-mw: 115.13406113814102
+cluster3.pqr_10_C22 estimate-mw: 152.91587939004165
+##### RESULTS #####
+SINCHO FINISHED
+PSE visualization...

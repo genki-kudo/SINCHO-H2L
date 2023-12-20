@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : 9.6844
+HEADER 1  - Drug Score                        : 0.0288
+HEADER 2  - Number of V. Vertices             :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.1482
+HEADER 4  - Mean alpha-sphere SA              : 0.3605
+HEADER 5  - Mean B-factor                     : 0.0103
+HEADER 6  - Hydrophobicity Score              : 33.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Volume Score                      : 4.4444
+HEADER 9  - Real volume (approximation)       : 73.8171
+HEADER 10 - Charge Score                      :     0
+HEADER 11 - Local hydrophobic density Score   : 10.0000
+HEADER 12 - Number of apolar alpha sphere     :    11
+HEADER 13 - Proportion of apolar alpha sphere : 0.5238
+ATOM   1422    N ALA A 510      20.809  58.578  30.121  1.00 10.49           N 0
+ATOM   1426   CB ALA A 510      22.196  56.547  30.063  1.00 10.51           C 0
+ATOM   1058    N GLY A 464      25.578  61.373  31.544  1.00  9.54           N 0
+ATOM   1425    O ALA A 510      21.598  58.558  32.655  1.00 10.52           O 0
+ATOM   1059   CA GLY A 464      25.762  60.515  32.722  1.00  9.43           C 0
+ATOM   1144    O VAL A 475      26.781  60.093  29.149  1.00 10.67           O 0
+ATOM   1437  CG2 VAL A 512      25.761  56.898  32.553  1.00  9.82           C 0
+ATOM   1050    O GLY A 462      22.622  62.476  29.366  1.00 10.51           O 0
+ATOM   1404    O ARG A 507      23.428  59.079  25.866  1.00 11.78           O 0
+ATOM   1407   CD ARG A 507      23.369  54.026  27.204  1.00 11.96           C 0
+ATOM   1405   CB ARG A 507      22.738  56.232  26.229  1.00 12.19           C 0
+ATOM   1377   CE MET A 503      26.630  55.983  26.019  1.00 11.12           C 0
+ATOM   1376   SD MET A 503      27.005  54.513  26.991  1.00 12.21           S 0
+ATOM   1146  CG1 VAL A 475      28.242  56.943  29.231  1.00 10.55           C 0
+ATOM   1507   CB ALA A 521      25.859  53.501  30.376  1.00  9.92           C 0
+ATOM   1149   CA GLY A 476      26.650  59.881  26.360  1.00 11.00           C 0
+TER
+END

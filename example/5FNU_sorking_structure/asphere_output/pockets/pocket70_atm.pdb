@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    71:
+HEADER 0  - Pocket Score                      : 2.7874
+HEADER 1  - Drug Score                        : 0.0373
+HEADER 2  - Number of V. Vertices             :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1588
+HEADER 4  - Mean alpha-sphere SA              : 0.7044
+HEADER 5  - Mean B-factor                     : 0.3448
+HEADER 6  - Hydrophobicity Score              : 42.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Volume Score                      : 5.0000
+HEADER 9  - Real volume (approximation)       : 393.4139
+HEADER 10 - Charge Score                      :     1
+HEADER 11 - Local hydrophobic density Score   : 3.0000
+HEADER 12 - Number of apolar alpha sphere     :     4
+HEADER 13 - Proportion of apolar alpha sphere : 0.2353
+ATOM    589  CD1 TRP A 403      15.209  71.130  51.355  1.00 17.76           C 0
+ATOM    587   CB TRP A 403      16.895  73.028  51.640  1.00 18.92           C 0
+ATOM    260    O ASP A 357      12.369  71.823  50.375  1.00 19.19           O 0
+ATOM    583    N TRP A 403      17.030  72.572  54.048  1.00 22.16           N 0
+ATOM    278   CG GLN A 359      14.576  76.303  49.861  1.00 29.89           C 0
+ATOM    256   CB ALA A 356      12.530  69.851  54.142  1.00 22.03           C 0
+ATOM    280  OE1 GLN A 359      15.372  77.697  51.624  1.00 42.42           O 0
+ATOM    575   CA GLN A 402      16.584  71.719  56.263  1.00 26.32           C 0
+ATOM    579   CG GLN A 402      15.809  73.094  58.263  1.00 34.07           C 0
+ATOM    578   CB GLN A 402      16.938  72.803  57.279  1.00 29.54           C 0
+ATOM    586    O TRP A 403      17.779  75.195  53.633  1.00 22.60           O 0
+ATOM    569    O ASN A 401      14.401  70.052  56.881  1.00 27.27           O 0
+ATOM    580   CD GLN A 402      16.252  73.854  59.491  1.00 38.19           C 0
+ATOM    582  NE2 GLN A 402      15.299  74.165  60.358  1.00 41.67           N 0
+ATOM    581  OE1 GLN A 402      17.432  74.163  59.666  1.00 41.10           O 0
+TER
+END

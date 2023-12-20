@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : 9.2515
+HEADER 1  - Drug Score                        : 0.0620
+HEADER 2  - Number of V. Vertices             :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.1249
+HEADER 4  - Mean alpha-sphere SA              : 0.6320
+HEADER 5  - Mean B-factor                     : 0.2949
+HEADER 6  - Hydrophobicity Score              : 38.7143
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Volume Score                      : 4.7143
+HEADER 9  - Real volume (approximation)       : 604.4949
+HEADER 10 - Charge Score                      :    -1
+HEADER 11 - Local hydrophobic density Score   : 15.0000
+HEADER 12 - Number of apolar alpha sphere     :    16
+HEADER 13 - Proportion of apolar alpha sphere : 0.5926
+ATOM    911   CG GLU A 446      36.470  72.174  53.421  1.00 41.24           C 0
+ATOM    357    O GLY A 371      28.759  65.119  55.687  1.00 28.32           O 0
+ATOM    368  CD1 LEU A 373      27.000  69.347  54.677  1.00 25.59           C 0
+ATOM    355   CA GLY A 371      30.485  64.586  54.137  1.00 26.12           C 0
+ATOM    903   CB PRO A 445      32.057  71.530  50.742  1.00 22.74           C 0
+ATOM    902    O PRO A 445      32.488  74.514  52.003  1.00 26.67           O 0
+ATOM    901    C PRO A 445      33.153  73.710  51.356  1.00 26.34           C 0
+ATOM    350    O VAL A 370      28.811  66.074  52.437  1.00 21.64           O 0
+ATOM    389   OH TYR A 375      28.317  70.457  51.147  1.00 19.65           O 0
+ATOM    352  CG1 VAL A 370      31.744  66.530  50.235  1.00 20.05           C 0
+ATOM    914  OE2 GLU A 446      37.961  70.355  53.783  1.00 49.46           O 0
+ATOM    734    O GLY A 423      34.225  68.166  48.412  1.00 20.52           O 0
+ATOM    732   CA GLY A 423      35.110  65.945  48.678  1.00 22.12           C 0
+ATOM    905   CD PRO A 445      33.288  71.174  48.785  1.00 20.94           C 0
+ATOM    904   CG PRO A 445      32.041  70.698  49.492  1.00 20.71           C 0
+ATOM    349    C VAL A 370      29.606  65.258  51.942  1.00 21.19           C 0
+ATOM    354    N GLY A 371      30.434  64.510  52.672  1.00 22.80           N 0
+ATOM    906    N GLU A 446      34.453  73.494  51.572  1.00 28.55           N 0
+ATOM    907   CA GLU A 446      35.176  74.225  52.642  1.00 32.60           C 0
+TER
+END
