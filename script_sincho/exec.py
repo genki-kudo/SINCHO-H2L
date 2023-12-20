@@ -163,7 +163,7 @@ def sincho_exec():
 
     logger.info('PSE visualization...')
     visualize(input_list[4],input_list[3],check_terms_sorted, input_list[0], input_list[1], input_list[9])
-
+    delete_file("subst.smi")
 
 
 

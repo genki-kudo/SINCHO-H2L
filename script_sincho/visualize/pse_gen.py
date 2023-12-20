@@ -2,7 +2,7 @@ from pymol import cmd
 import glob
 import os
 
-def visualize(protein, ligand, check_terms_sorted, poc_clus_dir, outdir, number):
+def visualize(protein, ligand, check_terms_sorted, poc_clus_dir, outdir, num):
     cmd.load(ligand)
     cmd.load(protein)
     cmd.color("atomic", ligand.split("/")[-1][:-4])
@@ -27,7 +27,7 @@ def visualize(protein, ligand, check_terms_sorted, poc_clus_dir, outdir, number)
     for n in check_terms_sorted:
     #for i in open(check_terms_sorted):
         #n = i.split()
-        if r >=1 and r<=number:
+        if r >=1 and r<=int(num):
             rank = "rank"+str(r)
             cls = n[0][:-4]
             atom = ligand.split("/")[-1][:-4]+"/"+n[1].split("_")[1]

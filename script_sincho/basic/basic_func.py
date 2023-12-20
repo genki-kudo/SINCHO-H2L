@@ -210,6 +210,9 @@ def pdb_out(x,y,z,output_name, num):
     with open (output_name,'a')as poc:
         print('HETATM'+'{:5}'.format(num)+'      PLA A   1     '+one_x+' '+one_y+' '+one_z+'  1.00 10.00           H', file=poc)
 
+def delete_file(file):
+    bash = lambda x:subprocess.run(x,shell=True)
+    bash("rm "+file)
 
 
 def logo():
