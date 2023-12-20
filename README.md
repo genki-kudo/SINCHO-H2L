@@ -42,7 +42,7 @@ In the SINCHO protocol, a **protein 3D structure file** and a **ligand 3D struct
 
 * **Protein 3D structure file**
 
-  Protonation state should be refined for input file, and element symbol must be included in column 77-78 of each "ATOM" line.
+  Element symbol must be included in column 77-78 of each "ATOM" line.
   If the PDB file contains substrates (such as DNA, RNA, and ligands), it is recommended that they be removed so site identification can function properly.
 * **Ligand 3D structure file**
   
