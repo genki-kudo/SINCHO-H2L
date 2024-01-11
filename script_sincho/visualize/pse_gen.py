@@ -23,6 +23,11 @@ def visualize(protein, ligand, check_terms_sorted, poc_clus_dir, outdir, num):
     cmd.scene("p2c_result", "store")
     cmd.save(outdir+"/sincho.pse")
 
+    for i in open(ligand):
+        if i[0:6]=="ATOM  "or i[0:6]=="HETATM":
+            ligres = i[17:20]
+            break
+
     r=0
     for n in check_terms_sorted:
     #for i in open(check_terms_sorted):
@@ -30,7 +35,9 @@ def visualize(protein, ligand, check_terms_sorted, poc_clus_dir, outdir, num):
         if r >=1 and r<=int(num):
             rank = "rank"+str(r)
             cls = n[0][:-4]
-            atom = ligand.split("/")[-1][:-4]+"/"+n[1].split("_")[1]
+            #atom = ligand.split("/")[-1][:-4]+"/"+n[1].split("_")[1]
+            atom = ligres+"/"+n[1].split("_")[1]
+            print(atom)
             score = n[5]
             cmd.color("gray70", "all")
             cmd.select(atom)
