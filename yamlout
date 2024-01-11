@@ -34,12 +34,16 @@ if __name__ == '__main__':
     for i in range(nums+1):
         if not os.path.exists(out_dir+"trajectory_"+str(i).zfill(3)+"/"):
             os.makedirs(out_dir+"trajectory_"+str(i).zfill(3)+"/")
+        for k in ["prot_","lig_"]:
+            lower_file = "/trajectory_"+str(i).zfill(3)+"/"+k+str(i).zfill(3)+".pdb"
+            bash("cp "+in_dir+lower_file+" "+out_dir+lower_file)
+    
+        
         yml = {}
         summary = {}
         flag = 0
         rank_index = 0
         for j in open(in_dir+"trajectory_"+str(i).zfill(3)+"/sincho.log"):
-
             if "##### RESULTS #####" in j:
                 flag+=1
             if flag ==1 and "#" not in j:
