@@ -23,6 +23,7 @@ if __name__ == '__main__':
     #####################################################
     nums = setting['P2C_SINCHO']['num_of_parallel']
 
+
     for i in range(nums+1):
         n = str(i).zfill(3)
         if not os.path.exists(out_dir+"trajectory_"+n+"/"):
@@ -30,29 +31,40 @@ if __name__ == '__main__':
         for k in ["prot_","lig_"]:
             lower_file = "/trajectory_"+n+"/"+k+n+".pdb"
             bash("cp "+in_dir+lower_file+" "+out_dir+lower_file)
-        
-        yml = {}
-        summary = {}
-        flag = 0
-        rank_index = 0
-        for j in open(in_dir+"trajectory_"+n+"/sincho.log"):
-            if "##### RESULTS #####" in j:
-                flag+=1
-            if flag ==1 and "#" not in j:
-                property = {}
-                property["atom_num"]=j.split()[0]
-                property["mw"]=float(j.split()[2])
-                ## will be updated
-                property["logp"]=3.0
-                property["acceptor"]=2
-                property["donor"]=1
-                ## will be updated
-                rank_index +=1
-                summary["rank"+str(rank_index).zfill(3)]=property
-            
-        yml['SINCHO_result']=summary
-        with open(out_dir+"trajectory_"+n+"/sincho_result.yaml","a")as y:
-            yaml.dump(yml, y, encoding='utf-8', allow_unicode=True)
+    
+
+    
+    if list(setting['P2C_SINCHO']['output_method'].keys())[0]=="score_sort_evenly":
+        print(list(setting['P2C_SINCHO']['output_method'].keys())[0])
+        num = int(list(setting['P2C_SINCHO']['output_method'].values())[0])
+        print(num)
+        for i in range(nums+1):
+            n = str(i).zfill(3)
+            yml = {}
+            summary = {}
+            flag = 0
+            rank_index = 0
+            count = 0
+            for j in open(in_dir+"trajectory_"+n+"/sincho.log"):
+                if "##### RESULTS #####" in j:
+                    flag+=1
+                if flag ==1 and "#" not in j and count<num:
+                    print("lalala")
+                    count+=1
+                    property = {}
+                    property["atom_num"]=j.split()[0]
+                    property["mw"]=float(j.split()[2])
+                    ## will be updated
+                    property["logp"]=3.0
+                    property["acceptor"]=3
+                    property["donor"]=3
+                    ## will be updated
+                    rank_index +=1
+                    summary["rank"+str(rank_index).zfill(3)]=property
+                
+            yml['SINCHO_result']=summary
+            with open(out_dir+"trajectory_"+n+"/sincho_result.yaml","w")as y:
+                yaml.dump(yml, y, encoding='utf-8', allow_unicode=True)
 
         
         
