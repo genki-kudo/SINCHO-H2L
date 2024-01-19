@@ -35,9 +35,7 @@ if __name__ == '__main__':
 
     
     if list(setting['P2C_SINCHO']['output_method'].keys())[0]=="score_sort_evenly":
-        print(list(setting['P2C_SINCHO']['output_method'].keys())[0])
         num = int(list(setting['P2C_SINCHO']['output_method'].values())[0])
-        print(num)
         for i in range(nums+1):
             n = str(i).zfill(3)
             yml = {}
@@ -49,15 +47,14 @@ if __name__ == '__main__':
                 if "##### RESULTS #####" in j:
                     flag+=1
                 if flag ==1 and "#" not in j and count<num:
-                    print("lalala")
                     count+=1
                     property = {}
                     property["atom_num"]=j.split()[0]
                     property["mw"]=float(j.split()[2])
                     ## will be updated
                     property["logp"]=3.0
-                    property["acceptor"]=3
-                    property["donor"]=3
+                    property["acceptor"]={"min":0, "max":3}
+                    property["donor"]={"min":0, "max":3}
                     ## will be updated
                     rank_index +=1
                     summary["rank"+str(rank_index).zfill(3)]=property
