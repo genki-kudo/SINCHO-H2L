@@ -2,6 +2,7 @@ from Bio.PDB import *
 import argparse
 import os
 import logging
+from script_sincho.basic.basic_func import *
 
 
 def setting():
@@ -42,6 +43,7 @@ def setting():
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
     formatter = logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+    t_file(input_list[7])
     file_handler = logging.FileHandler(input_list[7])
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
