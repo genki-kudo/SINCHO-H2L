@@ -21,6 +21,6 @@ def logp_calc(protein, poc_and_atom, clusterdir, outputdir, logger):
     
     ideallogp = (a*float(estimate_pocenv))+b
     #logger.info(poc_and_atom[0]+"_"+poc_and_atom[1]+" estimate-mw: "+ str(idealmw))
-    print(estimate_pocenv)
+    #print(estimate_pocenv)
     return ideallogp
 
