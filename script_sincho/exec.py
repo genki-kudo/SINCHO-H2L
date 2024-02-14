@@ -117,8 +117,10 @@ def sincho_exec():
         logger.info('ERROR! This complex cannot grow the compound!')
     else:
         for information in es_sorted:
-            mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
 
+            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
 
 
     
