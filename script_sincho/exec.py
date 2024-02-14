@@ -5,6 +5,7 @@ from script_sincho.extend_score.sascore.sa_main import *
 from script_sincho.atom_select.theta_distance_main import *
 from script_sincho.mw.mw_main import *
 from script_sincho.visualize.pse_gen import *
+from script_sincho.logp.logp_main import *
 import logging
 import glob
 
@@ -99,20 +100,28 @@ def sincho_exec():
 
     #print(es_sorted)
 
-    #230511_4 mw estimation
-    logger.info('(D) molecular weight is estimating ...')
+    #230511_4 mw and logP estimation
+    logger.info('(D) molecular weight and logP are estimated ...')
     #logger.info('Correct Term of MW-Estimation ->'+str(input_list[10]))
     logger.info('##### RESULTS #####')
     # summing up molecular weight and adding sd-term  #
     ##20221209_correct term madadayo!
     if len(es_sorted)>=int(input_list[9]):
         for information in es_sorted[:int(input_list[9])]:
-            mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+
+            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
+
     elif len(es_sorted)==0:
         logger.info('ERROR! This complex cannot grow the compound!')
     else:
         for information in es_sorted:
             mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+
+
+
+    
 
     logger.info('##### RESULTS #####')
     #########################################################################

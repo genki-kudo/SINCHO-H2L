@@ -6,3 +6,8 @@ def correlation_value():
     mw_from_dist = json.loads(open(os.path.dirname(os.path.abspath(__file__))+'/dist_passmw_fitting.json').read())
 
     return mw_from_vol, mw_from_dist
+
+def pocenv_complogp():
+    coefficients = json.loads(open(os.path.dirname(os.path.abspath(__file__))+'/pocenv_complogp.json').read())
+    #a, b, 
+    return coefficients

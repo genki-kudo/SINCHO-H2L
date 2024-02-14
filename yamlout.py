@@ -52,7 +52,7 @@ if __name__ == '__main__':
                     property["atom_num"]=j.split()[0]
                     property["mw"]=float(j.split()[2])
                     ## will be updated
-                    property["logp"]=3.0
+                    property["logp"]=float(j.split()[4])
                     property["acceptor"]={"min":0, "max":3}
                     property["donor"]={"min":0, "max":3}
                     ## will be updated

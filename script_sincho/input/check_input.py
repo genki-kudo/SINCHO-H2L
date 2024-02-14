@@ -64,9 +64,11 @@ def checks(input_list,logger):
     logger.info('Output directory>> '+input_list[1])
     if os.path.exists(input_list[1]):
         logger.info('Output directory>> '+input_list[1])
+        os.makedirs(input_list[1]+"/pocket_environment/", exist_ok=True)
     else:
         logger.warning('Output directory: '+input_list[1]+' will be generated.')
         os.makedirs(input_list[1], exist_ok=True)
+        os.makedirs(input_list[1]+"/pocket_environment/", exist_ok=True)
 
     return
 

@@ -22,7 +22,8 @@ def mw_calc(ligand, poc_and_atom, clusterdir, outputdir, logger):
 
     #idealmw = (mw_from_vol[0]*estimate_pocvol+mw_from_vol[1])+(mw_from_dist[0]*estimate_dist+mw_from_dist[1])+(float(mwsd))
     idealmw = (mw_from_vol[0]*estimate_pocvol+mw_from_vol[1])+(mw_from_dist[0]*estimate_dist+mw_from_dist[1])+((-0.5255*(mw_from_vol[0]*estimate_pocvol+mw_from_vol[1]))+54.6101)
-    logger.info(poc_and_atom[0]+"_"+poc_and_atom[1]+" estimate-mw: "+ str(idealmw))
-
+    #logger.info(poc_and_atom[0]+"_"+poc_and_atom[1]+" estimate-mw: "+ str(idealmw))
+    
+    return idealmw
     
 
