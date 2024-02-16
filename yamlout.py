@@ -18,8 +18,8 @@ if __name__ == '__main__':
         setting = yaml.safe_load(f)
     in_dir = setting['P2C_SINCHO']['working_directory']
     #####################################################
-    ##### "TSUKUBA_OUTPUT" will be changed its name #####
-    out_dir = setting['TSUKUBA_OUTPUT']['directory']
+    ##### "OUTPUT" will be changed its name #####
+    out_dir = setting['OUTPUT']['directory']
     #####################################################
     nums = setting['P2C_SINCHO']['num_of_parallel']
 
