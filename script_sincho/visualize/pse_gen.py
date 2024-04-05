@@ -32,8 +32,9 @@ def visualize(protein, ligand, check_terms_sorted, poc_clus_dir, outdir, num):
     for n in check_terms_sorted:
     #for i in open(check_terms_sorted):
         #n = i.split()
-        if r >=1 and r<=int(num):
-            rank = "rank"+str(r)
+
+        if r<=int(num):
+            rank = "rank"+str(r+1)
             cls = n[0][:-4]
             #atom = ligand.split("/")[-1][:-4]+"/"+n[1].split("_")[1]
             atom = ligres+"/"+n[1].split("_")[1]
