@@ -42,7 +42,7 @@ def sa_main(extend_idx, pdb_path):
     out_path = './out_sa.csv'
 
     df = pd.read_csv(input_smi)
-    suppl = Chem.SmilesMolSupplier(input_smi)
+    suppl = Chem.SmilesMolSupplier(input_smi, sanitize=False)
     sascores = processMols(suppl)
     df['sascore'] = sascores
     #for i in df['sascore']:
