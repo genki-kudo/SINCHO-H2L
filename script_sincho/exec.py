@@ -3,9 +3,7 @@ from script_sincho.extend_score.druggability_score import *
 from script_sincho.extend_score.es_main import *
 from script_sincho.extend_score.sascore.sa_main import *
 from script_sincho.atom_select.theta_distance_main import *
-from script_sincho.mw.mw_main import *
 from script_sincho.visualize.pse_gen import *
-from script_sincho.logp.logp_main import *
 import logging
 import glob
 
@@ -98,77 +96,21 @@ def sincho_exec():
         for ch in check_terms_sorted:
             print(" ".join(str(_) for _ in ch),file=chs)
 
-    #print(es_sorted)
-
-    #230511_4 mw and logP estimation
-    logger.info('(D) molecular weight and logP are estimated ...')
-    #logger.info('Correct Term of MW-Estimation ->'+str(input_list[10]))
     logger.info('##### RESULTS #####')
     # summing up molecular weight and adding sd-term  #
-    ##20221209_correct term madadayo!
     if len(es_sorted)>=int(input_list[9]):
         for information in es_sorted[:int(input_list[9])]:
-            idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
-            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
-
-            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
+            logger.info(information[0].split('/')[-1]+"_"+information[1])
 
     elif len(es_sorted)==0:
         logger.info('ERROR! This complex cannot grow the compound!')
     else:
         for information in es_sorted:
-            idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
-            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
-
-            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
-
-
-    
+            logger.info(information[0].split('/')[-1]+"_"+information[1])
 
     logger.info('##### RESULTS #####')
     #########################################################################
 
-    """
-    # 1. extend score calc #
-    es_res = es_calc(all_pqr, input_list[2], input_list[3], input_list[4], float(input_list[8]), input_list[0])
-    
-    # 2. pocket selection #
-    sel_pocs = pocket_sel(es_res, int(input_list[9]),logger)
-    #print(sel_pocs)
-
-    ##### (C) start atom selection #####
-    logger.info('(C) start atom is selecting ...')
-    # 1. theta and distance check #
-    poc_atom_lst = []
-    pdb_num_list = []
-    for poc in sel_pocs:
-        lst_tmp = []
-        atom_dist_sort, pdb_num = theta_distance_calc(input_list[3], input_list[0]+poc)
-        #print(atom_dist_sort)
-        if len(atom_dist_sort) !=0:
-            lst_tmp.append(poc)
-            lst_tmp.append(atom_dist_sort[0][0])
-            poc_atom_lst.append(lst_tmp)
-    # 3. atom reactivity check #
-    ##### ATODE TSUIKA SURUYO! #####
-    atom_reactivity(input_list[3], poc_atom_lst)
-    ##### ATODE TSUIKA SURUYO! #####
-    # 4. atom selection and next input generation #
-    ##### ATODE NAOSUYO! #####
-    selected_poc_atom = poc_atom_lst[:10]
-    #print(selected_poc_atom)
-    ##### ATODE NAOSUYO! #####
-
-    ##### (D) molecular weight estimation #####
-    logger.info('(D) molecular weight is estimating ...')
-    logger.info('Correct Term of MW-Estimation ->'+str(input_list[10]))
-    logger.info('##### RESULTS #####')
-    # summing up molecular weight and adding sd-term  #
-    ##20221209_correct term madadayo!
-    for poc_atom in selected_poc_atom:
-        mw_calc(input_list[3], poc_atom, input_list[0], input_list[1],input_list[10],logger)
-    logger.info('##### RESULTS #####')
-    """
     ##### (Z) output format #####
     logger.info('SINCHO FINISHED')
 
