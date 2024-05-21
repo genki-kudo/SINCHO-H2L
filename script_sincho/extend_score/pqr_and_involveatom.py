@@ -21,7 +21,7 @@ def involve_set(pqr, fpocket_output, pro_lst):
     for i in range(len(pqr_inf)):
         inv = []
         for num in fpoc_original_poc_num:
-            for j in open(fpocket_output+'/pockets/pocket'+str(num+1)+'_atm.pdb').readlines():
+            for j in open(fpocket_output+'/pockets/pocket'+str(num)+'_atm.pdb').readlines():
                 if vec_xyz(j)!='None':
                     if math.isclose(float(np.linalg.norm(pqr_vec[i] - vec_xyz(j))),float(pqr_rad[i]), rel_tol=0.005):
                         inv.append(j)
