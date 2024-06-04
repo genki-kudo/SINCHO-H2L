@@ -56,8 +56,8 @@ if __name__ == '__main__':
                     property["acceptor"]={"min":0, "max":3}
                     property["donor"]={"min":0, "max":3}
                     ## will be updated
+                    summary["rank_"+str(rank_index).zfill(3)]=property
                     rank_index +=1
-                    summary["rank"+str(rank_index).zfill(3)]=property
                 
             yml['SINCHO_result']=summary
             with open(out_dir+"trajectory_"+n+"/sincho_result.yaml","w")as y:
