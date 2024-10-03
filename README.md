@@ -8,7 +8,7 @@ SINCHO protocol is a method for **the prediction/suggestion of the desirable anc
   P2C is used for site identification.
   [P2C installation is refferred to the repository.](https://github.com/genki-kudo/Pocket-to-Concavity)
   
-  (This guide in the P2C repository includes to install P2C, Fpocket2 and Python3. )
+  (This guide in the P2C repository includes to install P2C v1.1, Fpocket4 and Python3. )
 
 * **Python**
 
