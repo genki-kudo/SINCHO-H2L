@@ -21,11 +21,6 @@ def sincho_exec():
     if len(all_pqr)==0:
         logger.error('No candidate pocket in '+input_list[0]+'! Prepare pocket pqr file!')
         exit()
-    """
-    else:
-        #(A)P2C execution script#
-        logger.info('(A) P2C execution')
-    """
 
     ##### (B) pocket selection #####
     logger.info('(B) extend score is calculating ...')
@@ -36,10 +31,12 @@ def sincho_exec():
 
     ligand = input_list[3]
 
+    #sa score of hit comp. was calculated and stored as "sa_ba"
     sa_ba = sa_base(ligand)
+
     #druggability calculation
     cal_res_lst = ds_calc(all_pqr, input_list[2], input_list[4])
-    #print(cal_res_lst)
+
 
     es_list = []
     check_es = []
@@ -49,9 +46,10 @@ def sincho_exec():
         ds_res = [ s for s in cal_res_lst if pqr.split('/')[-1] in s]
         if ds_res:
             ds = ds_res[0][4]
-            print(ds)
+            #print(ds)
         else:
             print('ERROR! druggability score is not found')
+            exit()
         atom_dist_sort, pdb_num = theta_distance_calc(ligand, pqr)
         #print(atom_dist_sort)
         #[原子番号_原子ラベル, θ, distance]
@@ -61,26 +59,27 @@ def sincho_exec():
         #
         if len(atom_dist_sort)!=0 and len(atom_dist_sort)>=use_atoms:
             for g in range(use_atoms):
-                print(pqr,atom_dist_sort[g][0])
+                #print(pqr,atom_dist_sort[g][0])
                 sa_ave = sa_main(atom_dist_sort[g][0].split('_')[0],ligand)
                 #print(pqr, atom_dist_sort[g][0], atom_dist_sort[g][2], ds ,sa_ave, sa_ba)
-                print(pqr, atom_dist_sort[g][0], es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba))
+                #print(pqr, atom_dist_sort[g][0], es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba))
                 es_list.append([pqr, atom_dist_sort[g][0], es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba)])
                 check_es.append([pqr.split('/')[-1], atom_dist_sort[g][0], round(atom_dist_sort[g][2],3), round(np.log10(1/ds),3), round(sa_ave-sa_ba,3), round(es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba),5)])
                 check_es_terms.append([pqr.split('/')[-1], atom_dist_sort[g][0], round(0.1*float(atom_dist_sort[g][2]),3), round(0.3*float(np.log10(1/ds)),3), round(0.6*(float(sa_ave-sa_ba)),3), round(es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba),5)])
 
         elif len(atom_dist_sort)!=0 and len(atom_dist_sort)<use_atoms:
             for g in range(len(atom_dist_sort)):
-                print(pqr,atom_dist_sort[g][0])
+                #print(pqr,atom_dist_sort[g][0])
                 sa_ave = sa_main(atom_dist_sort[g][0].split('_')[0],ligand)
                 #print(pqr, atom_dist_sort[g][0], atom_dist_sort[g][2], ds ,sa_ave, sa_ba)
-                print(pqr, atom_dist_sort[g][0], es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba))
+                #print(pqr, atom_dist_sort[g][0], es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba))
                 es_list.append([pqr, atom_dist_sort[g][0], es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba)])
                 check_es.append([pqr.split('/')[-1], atom_dist_sort[g][0], round(atom_dist_sort[g][2],3), round(np.log10(1/ds),3), round(sa_ave-sa_ba,3), round(es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba),5)])
                 check_es_terms.append([pqr.split('/')[-1], atom_dist_sort[g][0], round(0.1*float(atom_dist_sort[g][2]),3), round(0.3*float(np.log10(1/ds)),3), round(0.6*(float(sa_ave-sa_ba)),3), round(es_calc_each(atom_dist_sort[g][2], ds ,sa_ave-sa_ba),5)])
 
         else:
-            print(pqr, 'None')
+            #print(pqr, 'None')
+            continue
     
     #230511_3 sort es_minimum
     es_sorted = sorted(es_list, key=lambda x: x[2])
@@ -116,7 +115,7 @@ def sincho_exec():
 
     logger.info('PSE visualization...')
     visualize(input_list[4],input_list[3],check_terms_sorted, input_list[0], input_list[1], input_list[9])
-    delete_file("subst.smi")
+    #delete_file("subst.smi")
 
 
 

@@ -34,7 +34,7 @@ def sa_main(extend_idx, pdb_path):
     for i in substituent_list:
         ext_smi = smiles+i
         with open('./subst.smi','a')as out:
-            print(ext_smi, file=out)
+            print(ext_smi, "avoid-warning-str", file=out)
     
     readFragmentScores("fpscores")
 
@@ -64,7 +64,7 @@ def sa_base(pdb_path):
     with open('./subst.smi','a')as out:
         print('smiles', file=out)
     with open('./subst.smi','a')as out:
-        print(smi, file=out)
+        print(smi, "avoid-warning-str", file=out)
     
     readFragmentScores("fpscores")
 

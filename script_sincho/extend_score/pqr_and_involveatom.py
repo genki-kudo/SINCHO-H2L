@@ -16,13 +16,13 @@ def involve_set(pqr, fpocket_output, pro_lst):
             #this check is dependent on fpocket's version. 
             # fpocket2->int(i[22:26])-1
             # fpocket4->int(i[22:26])
-            if int(i[22:26])-1 not in fpoc_original_poc_num:
-                fpoc_original_poc_num.append(int(i[22:26])-1)
+            if int(i[22:26]) not in fpoc_original_poc_num:
+                fpoc_original_poc_num.append(int(i[22:26]))
     for i in range(len(pqr_inf)):
         inv = []
         for num in fpoc_original_poc_num:
             for j in open(fpocket_output+'/pockets/pocket'+str(num)+'_atm.pdb').readlines():
-                if vec_xyz(j)!='None':
+                if len(vec_xyz(j))==3:
                     if math.isclose(float(np.linalg.norm(pqr_vec[i] - vec_xyz(j))),float(pqr_rad[i]), rel_tol=0.005):
                         inv.append(j)
         involve[pqr_inf[i]]=inv
