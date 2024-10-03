@@ -4,6 +4,8 @@ from script_sincho.extend_score.es_main import *
 from script_sincho.extend_score.sascore.sa_main import *
 from script_sincho.atom_select.theta_distance_main import *
 from script_sincho.visualize.pse_gen import *
+from script_sincho.mw.mw_main import *
+from script_sincho.logp.logp_main import *
 import logging
 import glob
 
@@ -97,6 +99,7 @@ def sincho_exec():
 
     logger.info('##### RESULTS #####')
     # summing up molecular weight and adding sd-term  #
+    """
     if len(es_sorted)>=int(input_list[9]):
         for information in es_sorted[:int(input_list[9])]:
             logger.info(information[0].split('/')[-1]+"_"+information[1])
@@ -106,6 +109,24 @@ def sincho_exec():
     else:
         for information in es_sorted:
             logger.info(information[0].split('/')[-1]+"_"+information[1])
+    """
+
+
+    if len(es_sorted)>=int(input_list[9]):
+        for information in es_sorted[:int(input_list[9])]:
+            idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+
+            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
+
+    elif len(es_sorted)==0:
+        logger.info('ERROR! This complex cannot grow the compound!')
+    else:
+        for information in es_sorted:
+            idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+
+            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
 
     logger.info('##### RESULTS #####')
     #########################################################################
@@ -115,7 +136,7 @@ def sincho_exec():
 
     logger.info('PSE visualization...')
     visualize(input_list[4],input_list[3],check_terms_sorted, input_list[0], input_list[1], input_list[9])
-    #delete_file("subst.smi")
+    delete_file("subst.smi")
 
 
 
