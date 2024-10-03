@@ -24,7 +24,8 @@ def around_as(pqrfile, protein, distance, outputdir):
 
     as_dist_file = outputdir+"/pocket_environment/pocenv"+pqrfile.split("/")[-1].split(".")[0][7:]+".pdb"
     t_file(as_dist_file)
-    as_xyz = [vec_xyz(i) for i in open(pqrfile) if len(vec_xyz(j))==3]
+    as_xyz = [vec_xyz(i) for i in open(pqrfile) if len(vec_xyz(i))==3]
+    print(len(as_xyz))
     for j in open(protein):
         if (j[0:6]=="ATOM  " or j[0:6]=="HETATM") and j[17:20] in aminoacidlist:
             mindist = 1000000

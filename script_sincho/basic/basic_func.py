@@ -40,7 +40,7 @@ def vec_xyz(pdbline):
         vec_xyz = np.array(xyz)
         return vec_xyz
     else:
-        return 'None'
+        return "None"
     
 def dist_cf(vec_a, vec_b, d_min):
     distance = float(np.linalg.norm(vec_a - vec_b))
