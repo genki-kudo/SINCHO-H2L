@@ -36,9 +36,8 @@ def visualize(protein, ligand, check_terms_sorted, poc_clus_dir, outdir, num):
         if r<=int(num):
             rank = "rank"+str(r+1)
             cls = n[0][:-4]
-            #atom = ligand.split("/")[-1][:-4]+"/"+n[1].split("_")[1]
-            atom = ligres+"/"+n[1].split("_")[1]
-            print(atom)
+            atom = "resn "+ligres+" and name "+n[1].split("_")[1]
+            #print(atom)
             score = n[5]
             cmd.color("gray70", "all")
             cmd.select(atom)
