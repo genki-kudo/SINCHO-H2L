@@ -163,25 +163,31 @@ def coordinate_of_atom(pdbfile, atomname):
     return vec
 
 def coordinate_bonding_hydrogen(pdbfile, heavyatom):
+
+    #heavyatomの原子ラベルを見つけて、hanumに原子インデックスを格納
     bondh_coor = []
     with open(pdbfile, 'r')as inp:
         for line1 in inp:
             if line1[12:16].replace(' ','') == heavyatom:
                 hanum = int(line1[6:11])
+    
+    #CONECTの２個目からの原子インデックスを格納
     cand = []
     #2023/02/17
     with open(pdbfile, 'r')as inp:
         for line2 in inp:
             if line2[0:6]=='CONECT' and int(line2[6:11]) == hanum:
                 l = line2.split()
-                cand = [int(s) for s in l[2:]]
+                cand += [int(s) for s in l[2:]]
     #print(cand)
     for line3 in open(pdbfile,'r'):
         if (line3[0:6]=='ATOM  ' or line3[0:6]=='HETATM') and (int(line3[6:11]) in cand):
             #if ('H' == line3[12:16].replace(' ','')):
             if (line3.split()[-1]=='H'):
                 bondh_coor.append(np.array([float(line3[30:38]),float(line3[38:46]), float(line3[46:54])]))
-    return bondh_coor
+    
+    
+    return bondh_coor #最終的にくっついていく水素の座標を抽出
 
 def theta_calc(a,b,c):
     b_to_a = np.array(a) - np.array(b)
@@ -223,7 +229,7 @@ def logo():
     print('|  SS         II   NNN   NN  CC        HH    HH  OO    OO            |')
     print('|   SSSSSS    II   NN NN NN  CC        HHHHHHHH  OO    OO            |')
     print('|        SS   II   NN   NNN  CC        HH    HH  OO    OO            |')
-    print('|   SSSSSS   IIII  NN    NN   CCCCCCC  HH    HH   OOOOOO    ver.1.0  |')
+    print('|   SSSSSS   IIII  NN    NN   CCCCCCC  HH    HH   OOOOOO    ver.1.2  |')
     print('|                                                                    |')
     print('|====================================================================|')
     print('')

@@ -12,8 +12,8 @@ def theta_distance_calc(ligand, pqr):
             #print("####################################################################")
             #print(i[12:16].replace(' ','') , bondh_coor)
             if len(bondh_coor)!=0:
-                candidate_atom_and_hydro[i.split()[1]+'_'+i[12:16].replace(' ','')] = bondh_coor
-                pdb_num[i.split()[1]] = i.split()[2]
+                candidate_atom_and_hydro[str(int(i[6:11]))+'_'+i[12:16].replace(' ','')] = bondh_coor
+                pdb_num[str(int(i[6:11]))] = i[12:16].replace(' ','')
     #print(candidate_atom_and_hydro)
 
     atom_theta_dist = min_theta_dist(candidate_atom_and_hydro, ligand, pqr)
