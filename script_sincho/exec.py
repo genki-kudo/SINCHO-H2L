@@ -8,6 +8,8 @@ from script_sincho.mw.mw_main import *
 from script_sincho.logp.logp_main import *
 import logging
 import glob
+from rdkit import Chem
+from rdkit.Chem.Crippen import MolLogP
 
 def sincho_exec():
 
@@ -111,22 +113,27 @@ def sincho_exec():
             logger.info(information[0].split('/')[-1]+"_"+information[1])
     """
 
+    #このlogPはリード全体の予測値なので、そこからヒット母核の分を差し引く。
+    #これChemTSのrewardのときに全体logPを計算するので、差し引くのは無駄？
+    hit_logp = MolLogP(Chem.MolFromPDBFile(ligand, sanitize=False))
 
     if len(es_sorted)>=int(input_list[9]):
         for information in es_sorted[:int(input_list[9])]:
             idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
-            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],input_list[3],logger)
+            lead_logp = ideallogp - hit_logp
 
-            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
+            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(lead_logp))
 
     elif len(es_sorted)==0:
         logger.info('ERROR! This complex cannot grow the compound!')
     else:
         for information in es_sorted:
             idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
-            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
+            ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],input_list[3],logger)
+            lead_logp = ideallogp - hit_logp
 
-            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(ideallogp))
+            logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(lead_logp))
 
     logger.info('##### RESULTS #####')
     #########################################################################
