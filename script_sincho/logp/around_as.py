@@ -15,7 +15,7 @@ def shrakerupley_define():
                               "PT":1.75, "AU":1.66, "HG":1.55, "TL":1.96, "PB":2.02,
                               })
     sr = ShrakeRupley(radii_dict=custom_radii_dict)
-    print(custom_radii_dict)
+    #print(custom_radii_dict)
     return sr, custom_radii_dict
 
 
@@ -84,7 +84,7 @@ def around_atoms_search(pqrfile, protein, dist, outputdir, ligand):
     for i in open(pocket_pdbfile):
         if i[0:6]=="ATOM  " or i[0:6]=="HETATM":
             pocket_atoms.append((ext_xyz(i)))
-    print(pocket_atoms)
+    #print(pocket_atoms)
     for i in open(ligand):
         if i[0:6]=="ATOM  " or i[0:6]=="HETATM":
             pocket_atoms.append((ext_xyz(i)))
