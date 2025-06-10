@@ -21,18 +21,6 @@ if __name__ == '__main__':
     nums = setting['SINCHO']['num_of_parallel']
     order_scale = int(len(str(int(nums)))+1)
 
-    """
-    for i in range(nums+1):
-        n = str(i).zfill(rank_order_scale)
-        if not os.path.exists(out_dir+"trajectory_"+n+"/"):
-            os.makedirs(out_dir+"trajectory_"+n+"/")
-        for k in ["prot_","lig_"]:
-            lower_file = "/trajectory_"+n+"/"+k+n+".pdb"
-            bash("cp "+in_dir+lower_file+" "+out_dir+lower_file)
-    """
-    
-
-    
     if list(setting['SINCHO']['output_method'].keys())[0]=="score_sort_evenly":
         num = int(list(setting['SINCHO']['output_method'].values())[0])
         rank_order_scale = int(len(str(int(num)))+1)
@@ -43,7 +31,8 @@ if __name__ == '__main__':
             flag = 0
             rank_index = 0
             count = 0
-            for j in open(in_dir+"trajectory_"+n+"/sincho.log"):
+            print(os.path.join(in_dir, 'trajectory_'+n, 'sincho.log'))
+            for j in open(os.path.join(in_dir,"trajectory_"+n, "sincho.log")):
                 if "##### RESULTS #####" in j:
                     flag+=1
                 if flag ==1 and "#" not in j and count<num:
@@ -60,7 +49,7 @@ if __name__ == '__main__':
                     rank_index +=1
                 
             yml['SINCHO_result']=summary
-            with open(in_dir+"trajectory_"+n+"/sincho_result.yaml","w")as y:
+            with open(os.path.join(in_dir,"trajectory_"+n,"sincho_result.yaml"),"w")as y:
                 yaml.dump(yml, y, encoding='utf-8', allow_unicode=True)
 
         
