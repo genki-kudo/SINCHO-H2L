@@ -25,7 +25,7 @@ if __name__ == '__main__':
         num = int(list(setting['SINCHO']['output_method'].values())[0])
         rank_order_scale = int(len(str(int(num)))+1)
         for i in range(nums+1):
-            n = str(i).zfill(rank_order_scale)
+            n = str(i).zfill(order_scale)
             yml = {}
             summary = {}
             flag = 0
