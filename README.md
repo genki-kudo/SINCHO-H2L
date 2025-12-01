@@ -86,6 +86,10 @@ optional arguments:
                         specify logfile name (default: sincho.log)
   -n NUMBER_CAND, --number_cand NUMBER_CAND
                         specify number of candidates. default: 10
+  -ra RESTRICT_ATOMS, --restrict_atoms RESTRICT_ATOMS
+                        specify atom types to be used as anchor atoms,
+                        separated by commas (e.g., "N,CA,C,O"). Default: all
+                        heavy atoms are used.
 ```
 **For the default execution, SINCHO is performed by the following command:**
 ```
