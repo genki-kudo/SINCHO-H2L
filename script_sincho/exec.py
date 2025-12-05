@@ -58,7 +58,20 @@ def sincho_exec():
         #print(atom_dist_sort)
         #[原子番号_原子ラベル, θ, distance]
         #print(pdb_num)
-        #
+        
+        #2025/12/01 add the options to restrict the atom types used as anchor atoms
+        if input_list[10]!='':
+            restrict_atom_types = input_list[10].split(',')
+            #print('restrict_atom_types',restrict_atom_types)
+            atom_dist_sort_restricted = []
+            for atom_info in atom_dist_sort:
+                atom_label = atom_info[0].split('_')[1]
+                if atom_label in restrict_atom_types:
+                    atom_dist_sort_restricted.append(atom_info)
+            atom_dist_sort = atom_dist_sort_restricted
+            #print('after restriction',atom_dist_sort)
+        #############################################################################
+
         use_atoms = 2
         #
         if len(atom_dist_sort)!=0 and len(atom_dist_sort)>=use_atoms:

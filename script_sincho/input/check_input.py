@@ -26,6 +26,11 @@ def setting():
     parser.add_argument('-n', '--number_cand', nargs=1, default=['10'], help='specify number of candidates. default: 10')
     #parser.add_argument('-mwsd','--mwerror',nargs=1, default=['-50'], help='correct term of mw-estimation. default: -50')
 
+    # add the option to restrict the atoms used as anchor atoms
+    # if you have desirable anchor atom, you specify atom types with this option
+    parser.add_argument('-ra', '--restrict_atoms', nargs=1, default=[''], help='specify atom types to be used as anchor atoms, separated by commas (e.g., "N,CA,C,O"). Default: all heavy atoms are used.')
+
+
     args = parser.parse_args()
 
     input_list[0] = str(args.clusterdir[0])#pocket cluster dir
@@ -39,6 +44,9 @@ def setting():
     #input_list[8] = str(args.weight[0])#weight in the extend score
     input_list[9] = str(args.number_cand[0])# number of pocket selected at (B)
     #input_list[10] = str(args.mwerror[0])
+    input_list[10] = str(args.restrict_atoms[0])# restrict atom types for anchor atoms
+
+     #logging setting
 
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)

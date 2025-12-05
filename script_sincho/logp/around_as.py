@@ -76,7 +76,7 @@ def around_atoms_search(pqrfile, protein, dist, outputdir, ligand):
 
 
     #ポケットの原子取得
-    pocket_pdbfile = "sincho-output/"+pqrfile.split("/")[-1]+".pdb"
+    pocket_pdbfile = outputdir+"/"+pqrfile.split("/")[-1]+".pdb"
     pocket = parser.get_structure('pocket', pocket_pdbfile)
 
     # ポケットくらすたー及びリガンド原子のすべての座標を取得
