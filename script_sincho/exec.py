@@ -102,12 +102,12 @@ def sincho_exec():
     es_sorted = sorted(es_list, key=lambda x: x[2])
     check_sorted = sorted(check_es, key=lambda x: x[5])
     check_terms_sorted = sorted(check_es_terms, key=lambda x: x[5])
-    with open("./sincho-output/check.txt",'a') as chs:
+    with open(f"./{input_list[1]}/check.txt",'a') as chs:
         print("cluster atom distance log(1/ds) delta_sa es",file=chs)
         for ch in check_sorted:
             print(" ".join(str(_) for _ in ch),file=chs)
 
-    with open("./sincho-output/check_terms.txt",'a') as chs:
+    with open(f"./{input_list[1]}/check_terms.txt",'a') as chs:
         print("cluster atom 0.1*distance 0.3*log(1/ds) 0.6*delta_sa es",file=chs)
         for ch in check_terms_sorted:
             print(" ".join(str(_) for _ in ch),file=chs)
@@ -134,7 +134,9 @@ def sincho_exec():
         for information in es_sorted[:int(input_list[9])]:
             idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
             ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],input_list[3],logger)
-            lead_logp = ideallogp - hit_logp
+            # あまりに過小評価されるので、一先ず補正無しで出力
+            #lead_logp = ideallogp - hit_logp
+            lead_logp = ideallogp
 
             logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(lead_logp))
 
@@ -144,7 +146,9 @@ def sincho_exec():
         for information in es_sorted:
             idealmw = mw_calc(input_list[3], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],logger)
             ideallogp = logp_calc(input_list[4], [information[0].split('/')[-1], information[1]], input_list[0], input_list[1],input_list[3],logger)
-            lead_logp = ideallogp - hit_logp
+            # あまりに過小評価されるので、一先ず補正無しで出力
+            #lead_logp = ideallogp - hit_logp
+            lead_logp = ideallogp
 
             logger.info(information[0].split('/')[-1]+"_"+information[1]+" estimate-mw: "+ str(idealmw)+" estimate-logp: "+ str(lead_logp))
 
